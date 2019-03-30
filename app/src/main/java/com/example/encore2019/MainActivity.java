@@ -1,5 +1,8 @@
 package com.example.encore2019;
 
+import android.content.ClipData;
+import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,16 +15,84 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.AdapterView;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+  public ImageView Cultural;
+  public ImageView Technical;
+  public ImageView Sports;
+  public ImageView Nights;
+  public ImageView Arts;
+  public ImageView Informal;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        Cultural = (ImageView) findViewById(R.id.Cultural);
+        Cultural.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentLoadNewActivity= new Intent(MainActivity.this, cultural.class);
+            startActivity(intentLoadNewActivity);
+        }
+
+        });
+        Technical = (ImageView) findViewById(R.id.Technical);
+        Technical.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentLoadNewActivity= new Intent(MainActivity.this, technical.class);
+                startActivity(intentLoadNewActivity);
+            }
+
+        });
+        Sports = (ImageView) findViewById(R.id.Sports);
+        Sports.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentLoadNewActivity= new Intent(MainActivity.this, sports.class);
+                startActivity(intentLoadNewActivity);
+            }
+
+        });
+        Nights = (ImageView) findViewById(R.id.Nights);
+        Nights.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentLoadNewActivity= new Intent(MainActivity.this, nights.class);
+                startActivity(intentLoadNewActivity);
+            }
+
+        });
+        Arts = (ImageView) findViewById(R.id.Arts);
+        Arts.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentLoadNewActivity= new Intent(MainActivity.this, arts.class);
+                startActivity(intentLoadNewActivity);
+            }
+
+        });
+        Informal = (ImageView) findViewById(R.id.informal);
+        Informal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentLoadNewActivity= new Intent(MainActivity.this, informal.class);
+                startActivity(intentLoadNewActivity);
+            }
+
+        });
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -72,16 +143,32 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.Technical) {
+            Intent i = new Intent(MainActivity.this,technical.class);
+            startActivity(i);
+
             // Handle the camera action
-        } else if (id == R.id.Cultural) {
+        } else if (id == R.id.Cultural_drawer) {
+            Intent i = new Intent(MainActivity.this,cultural.class);
+            startActivity(i);
+
 
         } else if (id == R.id.Sports) {
+            Intent i = new Intent(MainActivity.this,sports.class);
+            startActivity(i);
+
+        } else if (id == R.id.Nights) {
+            Intent i = new Intent(MainActivity.this,nights.class);
+            startActivity(i);
 
         } else if (id == R.id.Arts) {
+            Intent i = new Intent(MainActivity.this,arts.class);
+            startActivity(i);
 
         } else if (id == R.id.About) {
 
         } else if (id == R.id.informal) {
+            Intent i = new Intent(MainActivity.this,informal.class);
+            startActivity(i);
 
         } else if (id == R.id.Schedule) {
 

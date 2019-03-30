@@ -10,7 +10,7 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="Technical" />
         <item
-            android:id="@+id/Cultural"
+            android:id="@+id/Cultural_drawer"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Cultural" />
         <item
@@ -18,9 +18,13 @@
             android:icon="@drawable/ic_menu_gallery"
             android:title="Schedule" />
         <item
+            android:id="@+id/Nights"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Nights" />
+        <item
             android:id="@+id/Arts"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Arts" />
+            android:title="Arts and Literary" />
         <item
             android:id="@+id/informal"
             android:icon="@drawable/ic_menu_gallery"
