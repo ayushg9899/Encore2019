@@ -4,12 +4,45 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="android:name"
+        android:icon="@drawable/encore"
+        android:label=""
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".informal"></activity>
+        <activity android:name=".technical_events.robosoc"
+            android:theme="@style/AppTheme.CustomTheme" ></activity>
+        <activity android:name=".technical_events.robosumo"
+            android:theme="@style/AppTheme.CustomTheme"  />
+        <activity android:name=".technical_events.roborace"
+            android:theme="@style/AppTheme.CustomTheme"  />
+        <activity android:name=".technical_events.tech"
+            android:theme="@style/AppTheme.CustomTheme"  />
+        <activity android:name=".technical_events.hunt"
+            android:theme="@style/AppTheme.CustomTheme"  />
+        <activity android:name=".technical_events.code"
+            android:theme="@style/AppTheme.CustomTheme"  />
+        <activity
+            android:name=".cultural_events.final_year"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".cultural_events.sing"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".cultural_events.nukkad"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".cultural_events.vogue"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".cultural_events.torque"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".cultural_events.skit"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".cultural_events.dance"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity android:name=".informal" />
         <activity android:name=".arts" />
         <activity android:name=".nights" />
         <activity android:name=".sports" />
