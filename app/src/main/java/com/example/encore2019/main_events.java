@@ -21,7 +21,7 @@ import android.widget.TextView;
 
 import com.example.encore2019.R;
 
-public class Main2Activity extends AppCompatActivity {
+public class main_events extends AppCompatActivity {
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -45,10 +45,13 @@ public class Main2Activity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        toolbar.setTitle("SCHEDULE");
+        toolbar.setTitle("EVENTS");
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
+
+        Bundle b = getIntent().getExtras();
+        int id = b.getInt("frag");
 
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.container);
@@ -57,6 +60,7 @@ public class Main2Activity extends AppCompatActivity {
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
 
+        mViewPager.setCurrentItem(id);
 
 
     }
@@ -132,41 +136,40 @@ public class Main2Activity extends AppCompatActivity {
         @Override
         public Fragment getItem(int position) {
             switch (position){
-                case 0: day1 day1=new day1();
-                    return day1;
-                case 1: day2 day2=new day2();
-                    return day2;
-                case 2: day3 day3=new day3();
-                    return day3;
-                case 3: day4 day4= new day4();
-                return day4;
+                case 0: technical_frag technical_frag=new technical_frag();
+                    return technical_frag;
+                case 1: cultural_frag cultural_frag=new cultural_frag();
+                    return cultural_frag;
+                case 2: sports_frag sports_frag=new sports_frag();
+                    return sports_frag;
+                case 3: arts_frag arts_frag= new arts_frag();
+                    return arts_frag;
+                case 4: informal_frag informal_frag= new informal_frag();
+                    return informal_frag;
             }
             return null;
         }
 
         @Override
         public int getCount() {
-            // Show 3 total pages.
-            return 4;
+            return 5;
         }
 
         @Override
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "Day 1";
+                    return "technical";
                 case 1:
-                    return "Day 2";
+                    return "CULTURAL";
                 case 2:
-                    return "Day 3";
-                    case 3:
-                     return "Day 4";
+                    return "SPORTS";
+                case 3:
+                    return "ARTS & LITERARY";
+                case 4:
+                    return "INFORMAL";
             }
             return null;
         }
     }
 }
-
-
-
-

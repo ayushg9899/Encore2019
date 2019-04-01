@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".main_events"
+            android:label="@string/title_activity_main_events"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".schedule"
             android:label="SCHEDULE"

@@ -146,17 +146,20 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.Technical) {
-            Intent i = new Intent(MainActivity.this,technical.class);
+            Intent i = new Intent(MainActivity.this,main_events.class);
+            i.putExtra("frag", 0);
             startActivity(i);
 
             // Handle the camera action
         } else if (id == R.id.Cultural_drawer) {
-            Intent i = new Intent(MainActivity.this,cultural.class);
+            Intent i = new Intent(MainActivity.this,main_events.class);
+            i.putExtra("frag",1);
             startActivity(i);
 
 
         } else if (id == R.id.Sports) {
-            Intent i = new Intent(MainActivity.this,sports.class);
+            Intent i = new Intent(MainActivity.this,main_events.class);
+            i.putExtra("frag",2);
             startActivity(i);
 
         } else if (id == R.id.Nights) {
@@ -164,13 +167,15 @@ public class MainActivity extends AppCompatActivity
             startActivity(i);
 
         } else if (id == R.id.Arts) {
-            Intent i = new Intent(MainActivity.this,arts.class);
+            Intent i = new Intent(MainActivity.this,main_events.class);
+            i.putExtra("frag",3);
             startActivity(i);
 
         } else if (id == R.id.About) {}
 
         else if (id == R.id.Informal) {
-            Intent i = new Intent(MainActivity.this,informal.class);
+            Intent i = new Intent(MainActivity.this,main_events.class);
+            i.putExtra("frag",4);
             startActivity(i);
         }
         else if (id == R.id.Schedule) {
