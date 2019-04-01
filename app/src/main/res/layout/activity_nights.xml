@@ -10,7 +10,7 @@
         android:id="@+id/scrollView3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="10dp">
+        android:layout_marginStart="2dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -22,6 +22,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
@@ -29,7 +30,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/singer" />
 
                 <TextView
                     android:id="@+id/Standup"
@@ -60,6 +61,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
@@ -67,7 +69,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/dj1" />
 
                 <TextView
                     android:id="@+id/star_year"
@@ -98,6 +100,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
@@ -105,7 +108,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/dj" />
 
                 <TextView
                     android:id="@+id/edm"
@@ -136,6 +139,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
@@ -143,7 +147,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/band" />
 
                 <TextView
                     android:id="@+id/bike"

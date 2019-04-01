@@ -2,40 +2,40 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
-    a
 
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/Technical"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_menu_send"
             android:title="Technical" />
         <item
             android:id="@+id/Cultural_drawer"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_menu_send"
             android:title="Cultural" />
         <item
-            android:id="@+id/Schedule"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Schedule" />
-        <item
-            android:id="@+id/Nights"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Nights" />
-        <item
             android:id="@+id/Arts"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_menu_send"
             android:title="Arts and Literary" />
         <item
-            android:id="@+id/informal"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Informal" />
-        <item
             android:id="@+id/Sports"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_menu_send"
             android:title="Sports" />
         <item
+            android:id="@+id/Informal"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Informal" />
+        <item
+            android:id="@+id/Nights"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Nights" />
+        <item
+            android:id="@+id/Schedule"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Schedule" />
+
+        <item
             android:id="@+id/About"
-            android:icon="@drawable/ic_menu_share"
+            android:icon="@drawable/ic_menu_send"
             android:title="About us" />
         <item
             android:id="@+id/Contact"

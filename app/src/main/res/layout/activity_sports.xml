@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/dark3"
     tools:context=".sports">
 
     <ScrollView
         android:id="@+id/scrollView3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="10dp">
+        android:layout_marginStart="2dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -22,6 +23,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
@@ -29,7 +31,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/shuttlecock" />
 
                 <TextView
                     android:id="@+id/Badminton"
@@ -60,6 +62,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
@@ -67,7 +70,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/football" />
 
                 <TextView
                     android:id="@+id/futsal_year"
@@ -98,14 +101,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
-
                 <ImageView
                     android:id="@+id/Chess_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/chess1" />
 
                 <TextView
                     android:id="@+id/Chess"
@@ -136,6 +139,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
@@ -143,7 +147,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/carrom" />
 
                 <TextView
                     android:id="@+id/bike"
@@ -174,6 +178,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
@@ -181,7 +186,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/sumo" />
 
                 <TextView
                     android:id="@+id/Taekwondo"
@@ -212,6 +217,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
@@ -219,7 +225,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/pingpong" />
 
                 <TextView
                     android:id="@+id/table"

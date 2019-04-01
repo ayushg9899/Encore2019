@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/dark3"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".cultural">
 
@@ -11,7 +12,7 @@
         android:id="@+id/scrollView3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="10dp">
+        android:layout_marginStart="2dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -23,6 +24,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
@@ -30,7 +32,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/elvis" />
 
                 <TextView
                     android:id="@+id/dance"
@@ -56,49 +58,50 @@
                     android:text="Venue: Audi" />
             </android.support.v7.widget.CardView>
 
-            <android.support.v7.widget.CardView
-                android:id="@+id/final_card"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="8dp"
-                app:cardCornerRadius="20dp">
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:id="@+id/final_card"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_margin="8dp"-->
+                <!--app:cardCornerRadius="20dp">-->
 
-                <ImageView
-                    android:id="@+id/final_icon"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                <!--<ImageView-->
+                    <!--android:id="@+id/final_icon"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_margin="10dp"-->
+                    <!--app:srcCompat="@drawable/spotlight" />-->
 
-                <TextView
-                    android:id="@+id/final_year"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="110dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginRight="20dp"
-                    android:ems="10"
-                    android:fontFamily="sans-serif-black"
-                    android:inputType="textPersonName"
-                    android:text="LAST VEGAS"
-                    android:textSize="21sp" />
+                <!--<TextView-->
+                    <!--android:id="@+id/final_year"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="110dp"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:layout_marginRight="20dp"-->
+                    <!--android:ems="10"-->
+                    <!--android:fontFamily="sans-serif-black"-->
+                    <!--android:inputType="textPersonName"-->
+                    <!--android:text="LAST VEGAS"-->
+                    <!--android:textSize="21sp" />-->
 
-                <TextView
-                    android:id="@+id/final_venue"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="110dp"
-                    android:layout_marginTop="50dp"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Venue: Audi" />
-            </android.support.v7.widget.CardView>
+                <!--<TextView-->
+                    <!--android:id="@+id/final_venue"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="110dp"-->
+                    <!--android:layout_marginTop="50dp"-->
+                    <!--android:ems="10"-->
+                    <!--android:inputType="textPersonName"-->
+                    <!--android:text="Venue: Audi" />-->
+            <!--</android.support.v7.widget.CardView>-->
 
             <android.support.v7.widget.CardView
                 android:id="@+id/skit_card"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
@@ -106,7 +109,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/movie" />
 
                 <TextView
                     android:id="@+id/skit"
@@ -137,6 +140,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
@@ -144,7 +148,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/motorbike" />
 
                 <TextView
                     android:id="@+id/bike"
@@ -175,6 +179,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
@@ -182,7 +187,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/theater" />
 
                 <TextView
                     android:id="@+id/nukkad"
@@ -213,6 +218,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
@@ -220,7 +226,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/spotlight" />
 
                 <TextView
                     android:id="@+id/vogue"
@@ -251,7 +257,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
-                android:padding="15dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
@@ -259,7 +265,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/microphone" />
 
                 <TextView
                     android:id="@+id/sing"

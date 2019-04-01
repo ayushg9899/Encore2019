@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/dark3"
     tools:context=".arts"
     android:padding="10dp">
 
@@ -13,7 +14,7 @@
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="5dp">
+        android:layout_marginStart="2dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -25,6 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
@@ -32,7 +34,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/speaking" />
 
                 <TextView
                     android:id="@+id/talk"
@@ -63,6 +65,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
@@ -70,7 +73,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/debate" />
 
                 <TextView
                     android:id="@+id/debate"
@@ -101,6 +104,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
@@ -108,7 +112,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/zorbing" />
 
                 <TextView
                     android:id="@+id/lacuzzi"
@@ -139,6 +143,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
@@ -146,7 +151,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"               
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/paintingpalette" />
 
                 <TextView
                     android:id="@+id/blind"
@@ -177,13 +182,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
                     android:id="@+id/tattoo_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"                    app:srcCompat="@mipmap/ic_launcher" />
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/tattoo" />
 
                 <TextView
                     android:id="@+id/tattoo"
@@ -214,6 +221,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
@@ -221,7 +229,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"                  
-                    app:srcCompat="@mipmap/ic_launcher" />
+                    app:srcCompat="@drawable/claycrafting" />
 
                 <TextView
                     android:id="@+id/clay"
@@ -252,13 +260,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
                     android:id="@+id/dress_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"                    app:srcCompat="@mipmap/ic_launcher" />
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/pencil" />
 
                 <TextView
                     android:id="@+id/dress"
@@ -289,13 +299,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
                     android:id="@+id/live_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"                    app:srcCompat="@mipmap/ic_launcher" />
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/creativity" />
 
                 <TextView
                     android:id="@+id/live"
@@ -326,13 +338,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
                     android:id="@+id/poetry_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"                    app:srcCompat="@mipmap/ic_launcher" />
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/poetry" />
 
                 <TextView
                     android:id="@+id/poetry"

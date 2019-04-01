@@ -81,14 +81,14 @@ public CardView vogue;
                 startActivity(intentLoadNewActivity);
             }
         });
-        final_year = (CardView) findViewById(R.id.final_card);
-        final_year.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intentLoadNewActivity= new Intent(cultural.this, com.example.encore2019.cultural_events.final_year.class);
-                startActivity(intentLoadNewActivity);
-            }
-        });
+//        final_year = (CardView) findViewById(R.id.final_card);
+//        final_year.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intentLoadNewActivity= new Intent(cultural.this, com.example.encore2019.cultural_events.final_year.class);
+//                startActivity(intentLoadNewActivity);
+//            }
+//        });
     }
 
     }

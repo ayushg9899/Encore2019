@@ -15,25 +15,27 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-  public ImageView Cultural;
+  /*public ImageView Cultural;
   public ImageView Technical;
   public ImageView Sports;
   public ImageView Nights;
   public ImageView Arts;
-  public ImageView Informal;
+  public ImageView Informal;*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+/*
         Cultural = (ImageView) findViewById(R.id.Cultural);
         Cultural.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -88,6 +90,7 @@ public class MainActivity extends AppCompatActivity
             }
 
         });
+        */
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -164,13 +167,15 @@ public class MainActivity extends AppCompatActivity
             Intent i = new Intent(MainActivity.this,arts.class);
             startActivity(i);
 
-        } else if (id == R.id.About) {
+        } else if (id == R.id.About) {}
 
-        } else if (id == R.id.informal) {
+        else if (id == R.id.Informal) {
             Intent i = new Intent(MainActivity.this,informal.class);
             startActivity(i);
-
-        } else if (id == R.id.Schedule) {
+        }
+        else if (id == R.id.Schedule) {
+            Intent i = new Intent(MainActivity.this,Main2Activity.class);
+            startActivity(i);
 
         } else if (id == R.id.Contact) {
 

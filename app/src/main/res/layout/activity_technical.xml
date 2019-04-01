@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".technical"
+    android:background="@drawable/dark3"
     android:padding="10dp">
 
     <ScrollView
@@ -13,7 +14,7 @@
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="5dp">
+        android:layout_marginStart="2dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -25,13 +26,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
                     android:id="@+id/code_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"                    app:srcCompat="@mipmap/ic_launcher" />
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/coding" />
 
                 <TextView
                     android:id="@+id/code"
@@ -62,13 +65,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
                     android:id="@+id/hunt_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"                    app:srcCompat="@mipmap/ic_launcher" />
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/coding1" />
 
                 <TextView
                     android:id="@+id/hunt"
@@ -99,13 +104,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
                     android:id="@+id/tech_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"                    app:srcCompat="@mipmap/ic_launcher" />
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/brainstorm" />
 
                 <TextView
                     android:id="@+id/Tech"
@@ -136,13 +143,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
                     android:id="@+id/roborace_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"                    app:srcCompat="@mipmap/ic_launcher" />
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/helmet" />
 
                 <TextView
                     android:id="@+id/roborace"
@@ -173,13 +182,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
                     android:id="@+id/robosumo_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"                    app:srcCompat="@mipmap/ic_launcher" />
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/sumo" />
 
                 <TextView
                     android:id="@+id/robosumo"
@@ -210,13 +221,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
+                app:cardElevation="10dp"
                 app:cardCornerRadius="20dp">
 
                 <ImageView
                     android:id="@+id/robosoc_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"                    app:srcCompat="@mipmap/ic_launcher" />
+                    android:layout_margin="10dp"
+                    app:srcCompat="@drawable/soccerball" />
 
                 <TextView
                     android:id="@+id/robosoc"
