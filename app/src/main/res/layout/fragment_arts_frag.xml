@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".arts_frag">
+    tools:context=".arts_frag"
+   >
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -11,8 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/dark3"
-        tools:context=".arts"
-        android:padding="10dp">
+        tools:context=".arts">
 
         <ScrollView
             android:id="@+id/scrollView3"
@@ -52,7 +52,7 @@
                         android:ems="10"
                         android:fontFamily="sans-serif-black"
                         android:inputType="textPersonName"
-                        android:text="TALK TILL YOU DROP"
+                        android:text="DECLAIMATION"
                         android:textSize="21sp" />
 
                     <TextView
@@ -91,7 +91,7 @@
                         android:ems="10"
                         android:fontFamily="sans-serif-black"
                         android:inputType="textPersonName"
-                        android:text="DABATE COMPETITION"
+                        android:text="GROUP DISCUSSION"
                         android:textSize="21sp" />
 
                     <TextView
@@ -102,7 +102,7 @@
                         android:layout_marginTop="50dp"
                         android:ems="10"
                         android:inputType="textPersonName"
-                        android:text="Venue: Audi" />
+                        android:text="Venue: Conference hall" />
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
@@ -118,7 +118,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        app:srcCompat="@drawable/zorbing" />
+                        app:srcCompat="@drawable/movie" />
 
                     <TextView
                         android:id="@+id/lacuzzi"
@@ -130,7 +130,7 @@
                         android:ems="10"
                         android:fontFamily="sans-serif-black"
                         android:inputType="textPersonName"
-                        android:text="LACUZZI"
+                        android:text="MODEL POLLS"
                         android:textSize="21sp" />
 
                     <TextView
@@ -141,7 +141,7 @@
                         android:layout_marginTop="50dp"
                         android:ems="10"
                         android:inputType="textPersonName"
-                        android:text="Venue: Audi" />
+                        android:text="Venue: Conference hall" />
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
@@ -223,7 +223,7 @@
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
-                    android:id="@+id/clay_card"
+                    android:id="@+id/poster_card"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="8dp"
@@ -231,14 +231,14 @@
                     app:cardCornerRadius="20dp">
 
                     <ImageView
-                        android:id="@+id/clay_icon"
+                        android:id="@+id/poster_icon"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         app:srcCompat="@drawable/claycrafting" />
 
                     <TextView
-                        android:id="@+id/clay"
+                        android:id="@+id/poster"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="110dp"
@@ -247,11 +247,11 @@
                         android:ems="10"
                         android:fontFamily="sans-serif-black"
                         android:inputType="textPersonName"
-                        android:text="CLAY MODELLING"
+                        android:text="POSTER MAKING"
                         android:textSize="21sp" />
 
                     <TextView
-                        android:id="@+id/clay_venue"
+                        android:id="@+id/poster_venue"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="110dp"

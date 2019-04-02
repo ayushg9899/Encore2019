@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.encore2019.sports_events.kabaddi;
 import com.example.encore2019.sports_events.badminton;
 
 
@@ -22,6 +23,7 @@ public class sports_frag extends Fragment {
     public CardView taekwondo;
     public CardView table;
     public CardView chess;
+    public CardView kabaddi;
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -87,6 +89,15 @@ public class sports_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
 
+        });
+
+        kabaddi = (CardView) view.findViewById(R.id.kabaddi_card);
+        kabaddi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentLoadNewActivity= new Intent(getActivity(), com.example.encore2019.sports_events.kabaddi.class);
+                startActivity(intentLoadNewActivity);
+            }
         });
 
     }

@@ -85,7 +85,7 @@
                     android:ems="10"
                     android:fontFamily="sans-serif-black"
                     android:inputType="textPersonName"
-                    android:text="DABATE COMPETITION"
+                    android:text="GROUP DISCUSSION"
                     android:textSize="21sp" />
 
                 <TextView
@@ -96,7 +96,7 @@
                     android:layout_marginTop="50dp"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="Venue: Audi" />
+                    android:text="Venue: conference hall" />
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
@@ -217,7 +217,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/clay_card"
+                android:id="@+id/poster_card"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
@@ -225,14 +225,14 @@
                 app:cardCornerRadius="20dp">
 
                 <ImageView
-                    android:id="@+id/clay_icon"
+                    android:id="@+id/poster_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"                  
                     app:srcCompat="@drawable/claycrafting" />
 
                 <TextView
-                    android:id="@+id/clay"
+                    android:id="@+id/poster"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="110dp"
@@ -241,18 +241,18 @@
                     android:ems="10"
                     android:fontFamily="sans-serif-black"
                     android:inputType="textPersonName"
-                    android:text="CLAY MODELLING"
+                    android:text="POSTER MAKING"
                     android:textSize="21sp" />
 
                 <TextView
-                    android:id="@+id/clay_venue"
+                    android:id="@+id/poster_venue"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="110dp"
                     android:layout_marginTop="50dp"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="Venue: Audi" />
+                    android:text="Venue: sac" />
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView

@@ -11,15 +11,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.encore2019.technical_events.aero;
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link technical_frag.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link technical_frag#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class technical_frag extends Fragment {
 
     public CardView code;
@@ -28,6 +22,7 @@ public class technical_frag extends Fragment {
     public CardView robosumo;
     public CardView tech;
     public CardView robosoc;
+    public CardView aero;
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -89,6 +84,15 @@ public class technical_frag extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intentLoadNewActivity= new Intent(getActivity(), com.example.encore2019.technical_events.robosumo.class);
+                startActivity(intentLoadNewActivity);
+            }
+
+        });
+        aero = (CardView) view.findViewById(R.id.aero_card);
+        aero.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentLoadNewActivity= new Intent(getActivity(), com.example.encore2019.technical_events.aero.class);
                 startActivity(intentLoadNewActivity);
             }
 

@@ -11,8 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".technical"
-        android:background="@drawable/dark3"
-        android:padding="10dp">
+        android:background="@drawable/dark3">
 
         <ScrollView
             android:id="@+id/scrollView3"
@@ -63,7 +62,7 @@
                         android:layout_marginTop="50dp"
                         android:ems="10"
                         android:inputType="textPersonName"
-                        android:text="Venue: Audi" />
+                        android:text="Venue: Online" />
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
@@ -157,7 +156,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        app:srcCompat="@drawable/helmet" />
+                        app:srcCompat="@drawable/soldier" />
 
                     <TextView
                         android:id="@+id/roborace"
@@ -169,7 +168,7 @@
                         android:ems="10"
                         android:fontFamily="sans-serif-black"
                         android:inputType="textPersonName"
-                        android:text="ROBO RACE"
+                        android:text="CHICKEN DINNER"
                         android:textSize="21sp" />
 
                     <TextView
@@ -219,7 +218,7 @@
                         android:layout_marginTop="50dp"
                         android:ems="10"
                         android:inputType="textPersonName"
-                        android:text="Venue: Audi" />
+                        android:text="Venue: Tiger chauraha" />
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
@@ -260,6 +259,46 @@
                         android:inputType="textPersonName"
                         android:text="Venue: Audi" />
                 </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/aero_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:id="@+id/aero_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        app:srcCompat="@drawable/soccerball" />
+
+                    <TextView
+                        android:id="@+id/aero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:ems="10"
+                        android:fontFamily="sans-serif-black"
+                        android:inputType="textPersonName"
+                        android:text="AEROMODELLING"
+                        android:textSize="21sp" />
+
+                    <TextView
+                        android:id="@+id/aero_venue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginTop="50dp"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="Venue: Shaurya ground" />
+                </android.support.v7.widget.CardView>
+
 
             </LinearLayout>
         </ScrollView>

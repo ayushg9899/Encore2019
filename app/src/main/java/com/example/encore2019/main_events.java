@@ -20,8 +20,20 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.encore2019.R;
+import com.example.encore2019.informal_events.laser;
 
 public class main_events extends AppCompatActivity {
+
+    TabLayout tabLayout;
+    private int[] tabIcons = {
+            R.drawable.ic_menu_gallery,
+            R.drawable.ic_menu_gallery,
+            R.drawable.ic_menu_gallery,
+            R.drawable.ic_menu_gallery,
+            R.drawable.ic_menu_gallery
+    };
+
+
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -37,6 +49,13 @@ public class main_events extends AppCompatActivity {
      * The {@link ViewPager} that will host the section contents.
      */
     private ViewPager mViewPager;
+    private void setupTabIcons() {
+        tabLayout.getTabAt(0).setIcon(tabIcons[0]);
+        tabLayout.getTabAt(1).setIcon(tabIcons[1]);
+        tabLayout.getTabAt(2).setIcon(tabIcons[2]);
+        tabLayout.getTabAt(3).setIcon(tabIcons[3]);
+        tabLayout.getTabAt(4).setIcon(tabIcons[4]);
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +67,9 @@ public class main_events extends AppCompatActivity {
         toolbar.setTitle("EVENTS");
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
+
+
+
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
         Bundle b = getIntent().getExtras();
@@ -59,11 +81,11 @@ public class main_events extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
-
         mViewPager.setCurrentItem(id);
-
+//        setupTabIcons();
 
     }
+
 
 
     @Override
@@ -82,7 +104,8 @@ public class main_events extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            finish();
+            System.exit(0);
         }
 
         return super.onOptionsItemSelected(item);

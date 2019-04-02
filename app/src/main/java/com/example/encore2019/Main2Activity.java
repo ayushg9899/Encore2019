@@ -78,7 +78,8 @@ public class Main2Activity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            finish();
+            System.exit(0);
         }
 
         return super.onOptionsItemSelected(item);

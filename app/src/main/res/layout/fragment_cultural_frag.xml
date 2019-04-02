@@ -50,7 +50,7 @@
                         android:ems="10"
                         android:fontFamily="sans-serif-black"
                         android:inputType="textPersonName"
-                        android:text="DANCE COMPETITION"
+                        android:text="FEET ON FIRE"
                         android:textSize="21sp" />
 
                     <TextView
@@ -216,7 +216,7 @@
                         android:layout_marginTop="50dp"
                         android:ems="10"
                         android:inputType="textPersonName"
-                        android:text="Venue: tiger chauraha" />
+                        android:text="Venue: Tiger chauraha" />
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
@@ -255,7 +255,7 @@
                         android:layout_marginTop="50dp"
                         android:ems="10"
                         android:inputType="textPersonName"
-                        android:text="Venue: Audi" />
+                        android:text="Venue: Main stage" />
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
@@ -283,7 +283,7 @@
                         android:ems="10"
                         android:fontFamily="sans-serif-black"
                         android:inputType="textPersonName"
-                        android:text="Singing competition"
+                        android:text="SINGING"
                         android:textSize="21sp" />
 
                     <TextView

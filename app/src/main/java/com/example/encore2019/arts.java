@@ -97,7 +97,7 @@ public class arts extends AppCompatActivity {
                 startActivity(intentLoadNewActivity);
             }
         });
-        clay = (CardView) findViewById(R.id.clay_card);
+        clay = (CardView) findViewById(R.id.poster_card);
         clay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

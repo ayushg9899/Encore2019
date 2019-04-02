@@ -64,14 +64,14 @@ public class informal_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        light = (CardView) view.findViewById(R.id.light_card);
-        light.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intentLoadNewActivity= new Intent(getActivity(), com.example.encore2019.informal_events.light.class);
-                startActivity(intentLoadNewActivity);
-            }
-        });
+//        light = (CardView) view.findViewById(R.id.light_card);
+//        light.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intentLoadNewActivity= new Intent(getActivity(), com.example.encore2019.informal_events.light.class);
+//                startActivity(intentLoadNewActivity);
+//            }
+//        });
 
         pubg = (CardView) view.findViewById(R.id.pubg_card);
         pubg.setOnClickListener(new View.OnClickListener() {

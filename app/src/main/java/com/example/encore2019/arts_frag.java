@@ -23,7 +23,7 @@ public class arts_frag extends Fragment {
     public CardView tattoo;
     public CardView live;
     public CardView blind;
-    public CardView clay;
+    public CardView poster;
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -104,8 +104,8 @@ public class arts_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        clay = (CardView) view.findViewById(R.id.clay_card);
-        clay.setOnClickListener(new View.OnClickListener() {
+        poster = (CardView) view.findViewById(R.id.poster_card);
+        poster.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intentLoadNewActivity= new Intent(getActivity(), com.example.encore2019.arts_and_literary_events.clay.class);
