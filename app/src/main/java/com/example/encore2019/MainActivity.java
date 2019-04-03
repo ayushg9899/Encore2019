@@ -6,8 +6,7 @@ import android.media.Image;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -24,44 +23,18 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import java.util.ArrayList;
-
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-  public ImageView Cultural;
-  public ImageView Technical;
-  public ImageView Sports;
-  public ImageView Nights;
-  public ImageView Arts;
-  public ImageView Informal;
-
-    private RecyclerView recyclerView;
-    private ArrayList<event_model> imageModelArrayList;
-    private eventAdapter adapter;
-
-    private int[] myImageList = new int[]{R.drawable.tecni, R.drawable.cult,R.drawable.sports1, R.drawable.arts,R.drawable.informals};
-int i;
-    private ArrayList<event_model> eatFruits(){
-
-        ArrayList<event_model> list = new ArrayList<>();
-
-        for(i = 0; i < 4; i++){
-            event_model event_model = new event_model();
-            event_model.setImage_drawable(myImageList[i]);
-//            Cultural.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View v) {
-//                    Intent intentLoadNewActivity= new Intent(MainActivity.this, main_events.class);
-//                    intentLoadNewActivity.putExtra("frag",i);
-//                    startActivity(intentLoadNewActivity);
-//                }
-//
-//            });
-            list.add(event_model);
-        }
-
-        return list;
-    }
+  public CardView Cultural;
+  public CardView Technical;
+  public CardView Sports;
+  public CardView edm;
+  public CardView band;
+  public CardView standup;
+  public CardView star;
+  public CardView Arts;
+  public CardView Informal;
+//        public int[] myImageList = new int[]{R.drawable.tecni, R.drawable.cult,R.drawable.sports1, R.drawable.arts,R.drawable.informals};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,16 +42,9 @@ int i;
 
 //        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        recyclerView = (RecyclerView) findViewById(R.id.recycler);
 
-        imageModelArrayList = eatFruits();
-        adapter = new eventAdapter(this, imageModelArrayList);
-        recyclerView.setAdapter(adapter);
-        recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.HORIZONTAL, false));
 
-/*
-
-        Cultural = (ImageView) findViewById(R.id.Cultural);
+        Cultural = (CardView) findViewById(R.id.Cultural);
         Cultural.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -88,7 +54,7 @@ int i;
         }
 
         });
-      Technical = (ImageView) findViewById(R.id.Technical);
+        Technical = (CardView) findViewById(R.id.Technical);
         Technical.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -98,7 +64,7 @@ int i;
             }
 
         });
-        Sports = (ImageView) findViewById(R.id.Sports);
+        Sports = (CardView) findViewById(R.id.Sports);
         Sports.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -108,16 +74,16 @@ int i;
             }
 
         });
-        Nights = (ImageView) findViewById(R.id.Nights);
-        Nights.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intentLoadNewActivity= new Intent(MainActivity.this, nights.class);
-                startActivity(intentLoadNewActivity);
-            }
-
-        });
-        Arts = (ImageView) findViewById(R.id.Arts);
+//        Nights = (CardView) findViewById(R.id.Nights);
+//        Nights.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intentLoadNewActivity= new Intent(MainActivity.this, nights.class);
+//                startActivity(intentLoadNewActivity);
+//            }
+//
+//        });
+        Arts = (CardView) findViewById(R.id.Arts);
         Arts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -127,7 +93,7 @@ int i;
             }
 
         });
-        Informal = (ImageView) findViewById(R.id.Informal);
+        Informal = (CardView) findViewById(R.id.Informal);
         Informal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -138,7 +104,43 @@ int i;
 
         });
 
-*/
+        edm = (CardView) findViewById(R.id.edm_card);
+        edm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentLoadNewActivity= new Intent(MainActivity.this, com.example.encore2019.night.edm.class);
+                startActivity(intentLoadNewActivity);
+            }
+
+        });
+
+        standup = (CardView) findViewById(R.id.stand_card);
+        standup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentLoadNewActivity= new Intent(MainActivity.this, com.example.encore2019.night.standup.class);
+                startActivity(intentLoadNewActivity);
+            }
+        });
+
+        star = (CardView) findViewById(R.id.star_card);
+        star.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentLoadNewActivity= new Intent(MainActivity.this, com.example.encore2019.night.star.class);
+                startActivity(intentLoadNewActivity);
+            }
+        });
+
+        band = (CardView) findViewById(R.id.band_card);
+        band.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentLoadNewActivity= new Intent(MainActivity.this, com.example.encore2019.night.band.class);
+                startActivity(intentLoadNewActivity);
+            }
+        });
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
