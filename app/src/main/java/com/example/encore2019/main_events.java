@@ -26,11 +26,11 @@ public class main_events extends AppCompatActivity {
 
     TabLayout tabLayout;
     private int[] tabIcons = {
-            R.drawable.ic_menu_gallery,
-            R.drawable.ic_menu_gallery,
-            R.drawable.ic_menu_gallery,
-            R.drawable.ic_menu_gallery,
-            R.drawable.ic_menu_gallery
+            R.drawable.computer,
+            R.drawable.inclinedmicrophone,
+            R.drawable.football2,
+            R.drawable.pencil1,
+            R.drawable.gun
     };
 
 
@@ -49,13 +49,6 @@ public class main_events extends AppCompatActivity {
      * The {@link ViewPager} that will host the section contents.
      */
     private ViewPager mViewPager;
-    private void setupTabIcons() {
-        tabLayout.getTabAt(0).setIcon(tabIcons[0]);
-        tabLayout.getTabAt(1).setIcon(tabIcons[1]);
-        tabLayout.getTabAt(2).setIcon(tabIcons[2]);
-        tabLayout.getTabAt(3).setIcon(tabIcons[3]);
-        tabLayout.getTabAt(4).setIcon(tabIcons[4]);
-    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,11 +71,15 @@ public class main_events extends AppCompatActivity {
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
+        mViewPager.setCurrentItem(id);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
-        mViewPager.setCurrentItem(id);
-//        setupTabIcons();
+        tabLayout.getTabAt(0).setIcon(tabIcons[0]);
+        tabLayout.getTabAt(1).setIcon(tabIcons[1]);
+        tabLayout.getTabAt(2).setIcon(tabIcons[2]);
+        tabLayout.getTabAt(3).setIcon(tabIcons[3]);
+        tabLayout.getTabAt(4).setIcon(tabIcons[4]);
 
     }
 
@@ -182,15 +179,15 @@ public class main_events extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "technical";
+                    return "";
                 case 1:
-                    return "CULTURAL";
+                    return "";
                 case 2:
-                    return "SPORTS";
+                    return "";
                 case 3:
-                    return "ARTS & LITERARY";
+                    return "";
                 case 4:
-                    return "INFORMAL";
+                    return "";
             }
             return null;
         }

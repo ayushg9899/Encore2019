@@ -235,7 +235,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        app:srcCompat="@drawable/claycrafting" />
+                        app:srcCompat="@drawable/poster" />
 
                     <TextView
                         android:id="@+id/poster"

@@ -30,6 +30,9 @@
         <android.support.design.widget.TabLayout
             android:id="@+id/tabs"
             android:layout_width="match_parent"
+            app:tabGravity="center"
+            app:tabSelectedTextColor="@color/colorAccent"
+
             android:layout_height="wrap_content">
 
             <android.support.design.widget.TabItem

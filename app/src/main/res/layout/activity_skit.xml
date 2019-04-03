@@ -1,9 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="20dp"
     tools:context=".cultural_events.skit">
 
-</android.support.constraint.ConstraintLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:background="@drawable/skit"
+            android:elevation="20dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:text="SKIT" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="It is said that the stage has an energy that takes us on a journey of imagination; an energy that lasts only for a short period of time, leaving behind a stimulating conscience.This event gives you the opportunity to immerse the audience in your emotions and actions. The stage is where dreams are born and come true; all you have to do is captivate the audience in a manner like never before!" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Coordinators:\n Anjali Anand (8707211528)\n Utkarsh yadav (8707517285)" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

@@ -6,6 +6,9 @@ import android.media.Image;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -19,37 +22,78 @@ import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-  /*public ImageView Cultural;
+  public ImageView Cultural;
   public ImageView Technical;
   public ImageView Sports;
   public ImageView Nights;
   public ImageView Arts;
-  public ImageView Informal;*/
+  public ImageView Informal;
 
+    private RecyclerView recyclerView;
+    private ArrayList<event_model> imageModelArrayList;
+    private eventAdapter adapter;
+
+    private int[] myImageList = new int[]{R.drawable.tecni, R.drawable.cult,R.drawable.sports1, R.drawable.arts,R.drawable.informals};
+int i;
+    private ArrayList<event_model> eatFruits(){
+
+        ArrayList<event_model> list = new ArrayList<>();
+
+        for(i = 0; i < 4; i++){
+            event_model event_model = new event_model();
+            event_model.setImage_drawable(myImageList[i]);
+//            Cultural.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    Intent intentLoadNewActivity= new Intent(MainActivity.this, main_events.class);
+//                    intentLoadNewActivity.putExtra("frag",i);
+//                    startActivity(intentLoadNewActivity);
+//                }
+//
+//            });
+            list.add(event_model);
+        }
+
+        return list;
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+//        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+        recyclerView = (RecyclerView) findViewById(R.id.recycler);
+
+        imageModelArrayList = eatFruits();
+        adapter = new eventAdapter(this, imageModelArrayList);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.HORIZONTAL, false));
+
 /*
+
         Cultural = (ImageView) findViewById(R.id.Cultural);
         Cultural.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentLoadNewActivity= new Intent(MainActivity.this, cultural.class);
+                Intent intentLoadNewActivity= new Intent(MainActivity.this, main_events.class);
+                intentLoadNewActivity.putExtra("frag",1);
             startActivity(intentLoadNewActivity);
         }
 
         });
-        Technical = (ImageView) findViewById(R.id.Technical);
+      Technical = (ImageView) findViewById(R.id.Technical);
         Technical.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentLoadNewActivity= new Intent(MainActivity.this, technical.class);
+                Intent intentLoadNewActivity= new Intent(MainActivity.this, main_events.class);
+                intentLoadNewActivity.putExtra("frag",0);
                 startActivity(intentLoadNewActivity);
             }
 
@@ -58,7 +102,8 @@ public class MainActivity extends AppCompatActivity
         Sports.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentLoadNewActivity= new Intent(MainActivity.this, sports.class);
+                Intent intentLoadNewActivity= new Intent(MainActivity.this, main_events.class);
+                intentLoadNewActivity.putExtra("frag",2);
                 startActivity(intentLoadNewActivity);
             }
 
@@ -76,22 +121,24 @@ public class MainActivity extends AppCompatActivity
         Arts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentLoadNewActivity= new Intent(MainActivity.this, arts.class);
+                Intent intentLoadNewActivity= new Intent(MainActivity.this, main_events.class);
+                intentLoadNewActivity.putExtra("frag",3);
                 startActivity(intentLoadNewActivity);
             }
 
         });
-        Informal = (ImageView) findViewById(R.id.informal);
+        Informal = (ImageView) findViewById(R.id.Informal);
         Informal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentLoadNewActivity= new Intent(MainActivity.this, informal.class);
+                Intent intentLoadNewActivity= new Intent(MainActivity.this, main_events.class);
+                intentLoadNewActivity.putExtra("frag",4);
                 startActivity(intentLoadNewActivity);
             }
 
         });
-        */
 
+*/
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

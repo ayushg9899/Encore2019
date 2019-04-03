@@ -11,6 +11,7 @@
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
         android:layout_width="match_parent"
+        android:background="@drawable/dark3"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/appbar_padding_top"
         android:theme="@style/AppTheme.AppBarOverlay">
@@ -20,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:layout_weight="1"
-            android:background="?attr/colorPrimary"
+            android:background="@drawable/dark3"
             app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.PopupOverlay"
             app:title="@string/app_name">
@@ -29,9 +30,12 @@
 
         <android.support.design.widget.TabLayout
             android:id="@+id/tabs"
-
+            app:tabSelectedTextColor="@color/colorAccent"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            app:tabBackground="@drawable/dark3"
+            android:layout_height="wrap_content"
+            app:tabMode="scrollable"
+            app:tabGravity="fill">
 
             <android.support.design.widget.TabItem
                 android:id="@+id/tabItem"
