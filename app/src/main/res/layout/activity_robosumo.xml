@@ -35,14 +35,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20dp"
-                android:text=""
+                android:text="The competition requires participants to design and fabricate an RC Aircraft (no readymade aircraft like RTF, ARF, BNF
+etc. are permitted) and perform a set of tasks. Propellers, Motors, ESC, Servos, Receiver and Transmitter are allowed as
+off-the-shelf items."
 />
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="10dp"
-                android:text="" />
+                android:text="Coordinator:" />
 
 
 

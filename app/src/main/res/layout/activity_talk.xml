@@ -19,7 +19,7 @@
                 android:id="@+id/imageView3"
                 android:layout_width="wrap_content"
                 android:layout_height="200dp"
-                android:background="@drawable/groupdiscussion"
+                android:background="@drawable/singing"
                 android:elevation="20dp" />
 
             <TextView

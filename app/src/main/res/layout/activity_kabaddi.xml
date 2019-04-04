@@ -35,7 +35,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20dp"
-                android:text=""
+
+                android:text="When the Cheetah's roar on a 13 ×10 meters court, magic is bound to happen. Encore '19 presents before you the game of the fearless, Kabaddi and an astounding atmosphere to experience."
 />
             <TextView
                 android:id="@+id/textView7"

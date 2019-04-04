@@ -23,23 +23,40 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.example.encore2019.night.edm;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
   public CardView Cultural;
   public CardView Technical;
   public CardView Sports;
-  public CardView edm;
   public CardView band;
   public CardView standup;
   public CardView star;
   public CardView Arts;
   public CardView Informal;
+  public CardView perf;
+    public CardView astro;
+    public CardView mobile;
+    public CardView starg;
+
+
+    //  private static int SPLASH_TIME_OUT = 4000;
 //        public int[] myImageList = new int[]{R.drawable.tecni, R.drawable.cult,R.drawable.sports1, R.drawable.arts,R.drawable.informals};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+//        new Handler().postDelayed(new Runnable()){
+//            @Override
+//                    public void run(){
+//                Intent homeIntent = new Intent(MainActivity.this, HomeActivity.class)
+//                        startActivity(homeIntent);
+//                finish();
+//            }
+//
+//        },SPLASH_TIME_OUT);
 //        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
 
@@ -104,15 +121,6 @@ public class MainActivity extends AppCompatActivity
 
         });
 
-        edm = (CardView) findViewById(R.id.edm_card);
-        edm.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intentLoadNewActivity= new Intent(MainActivity.this, com.example.encore2019.night.edm.class);
-                startActivity(intentLoadNewActivity);
-            }
-
-        });
 
         standup = (CardView) findViewById(R.id.stand_card);
         standup.setOnClickListener(new View.OnClickListener() {
@@ -137,6 +145,42 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v) {
                 Intent intentLoadNewActivity= new Intent(MainActivity.this, com.example.encore2019.night.band.class);
+                startActivity(intentLoadNewActivity);
+            }
+        });
+
+        perf = (CardView) findViewById(R.id.Performance);
+        perf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentLoadNewActivity= new Intent(MainActivity.this, com.example.encore2019.performances.class);
+                startActivity(intentLoadNewActivity);
+            }
+        });
+
+        astro = (CardView) findViewById(R.id.astro_card);
+        astro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentLoadNewActivity= new Intent(MainActivity.this, com.example.encore2019.astro.class);
+                startActivity(intentLoadNewActivity);
+            }
+        });
+
+        mobile = (CardView) findViewById(R.id.mobile_card);
+        mobile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentLoadNewActivity= new Intent(MainActivity.this, com.example.encore2019.mobile.class);
+                startActivity(intentLoadNewActivity);
+            }
+        });
+
+        starg = (CardView) findViewById(R.id.starg_card);
+        starg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentLoadNewActivity= new Intent(MainActivity.this, com.example.encore2019.stargazing.class);
                 startActivity(intentLoadNewActivity);
             }
         });

@@ -1,5 +1,7 @@
 package com.example.encore2019;
 
+import android.content.Intent;
+import android.media.Image;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -17,12 +19,18 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.encore2019.R;
 
 public class Main2Activity extends AppCompatActivity {
 
+
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
+    }
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
      * fragments for each of the sections. We use a
@@ -58,6 +66,18 @@ public class Main2Activity extends AppCompatActivity {
         tabLayout.setupWithViewPager(mViewPager);
 
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+//        Back = (ImageView) findViewById(R.id.back);
+//        Back.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intentLoadNewActivity= new Intent(Main2Activity.this, MainActivity.class);
+//                startActivity(intentLoadNewActivity);
+//            }
+//
+//        });
 
     }
 
@@ -77,10 +97,10 @@ public class Main2Activity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            finish();
-            System.exit(0);
-        }
+//        if (id == R.id.action_settings) {
+//            finish();
+//            System.exit(0);
+//        }
 
         return super.onOptionsItemSelected(item);
     }

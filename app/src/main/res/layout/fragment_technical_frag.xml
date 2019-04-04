@@ -10,8 +10,8 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".technical"
-        android:background="@drawable/dark3">
+        android:background="@drawable/dark3"
+        tools:context=".technical">
 
         <ScrollView
             android:id="@+id/scrollView3"
@@ -31,8 +31,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="8dp"
-                    app:cardElevation="10dp"
-                    app:cardCornerRadius="20dp">
+                    android:background="@drawable/customborder"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
 
                     <ImageView
                         android:id="@+id/code_icon"
@@ -70,8 +71,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="8dp"
-                    app:cardElevation="10dp"
-                    app:cardCornerRadius="20dp">
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
 
                     <ImageView
                         android:id="@+id/hunt_icon"
@@ -109,8 +110,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="8dp"
-                    app:cardElevation="10dp"
-                    app:cardCornerRadius="20dp">
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
 
                     <ImageView
                         android:id="@+id/tech_icon"
@@ -148,8 +149,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="8dp"
-                    app:cardElevation="10dp"
-                    app:cardCornerRadius="20dp">
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
 
                     <ImageView
                         android:id="@+id/roborace_icon"
@@ -187,8 +188,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="8dp"
-                    app:cardElevation="10dp"
-                    app:cardCornerRadius="20dp">
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
 
                     <ImageView
                         android:id="@+id/robosumo_icon"
@@ -226,8 +227,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="8dp"
-                    app:cardElevation="10dp"
-                    app:cardCornerRadius="20dp">
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
 
                     <ImageView
                         android:id="@+id/robosoc_icon"
@@ -265,8 +266,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="8dp"
-                    app:cardElevation="10dp"
-                    app:cardCornerRadius="20dp">
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
 
                     <ImageView
                         android:id="@+id/aero_icon"
@@ -298,6 +299,8 @@
                         android:inputType="textPersonName"
                         android:text="Venue: Shaurya ground" />
                 </android.support.v7.widget.CardView>
+
+
 
 
             </LinearLayout>

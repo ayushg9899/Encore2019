@@ -33,6 +33,7 @@
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="20dp"
             android:text="Blind art is the fun event, where you mess up your drawing with your hands while using someone else's brain. ln this event one of the participants will be blindfolded while another one will be handcuffed. The one who is handcuffed has to describe what to draw—from his imagination to the blindfolded participant who will draw what is being delivered." />
 
         <TextView

@@ -33,6 +33,7 @@
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="20dp"
             android:text="It is said that the stage has an energy that takes us on a journey of imagination; an energy that lasts only for a short period of time, leaving behind a stimulating conscience.This event gives you the opportunity to immerse the audience in your emotions and actions. The stage is where dreams are born and come true; all you have to do is captivate the audience in a manner like never before!" />
 
         <TextView

@@ -22,15 +22,15 @@ public class nights extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nights);
 
-        edm = (CardView) findViewById(R.id.edm_card);
-        edm.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intentLoadNewActivity= new Intent(nights.this, com.example.encore2019.night.edm.class);
-                startActivity(intentLoadNewActivity);
-            }
-
-        });
+//        edm = (CardView) findViewById(R.id.edm_card);
+//        edm.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intentLoadNewActivity= new Intent(nights.this, com.example.encore2019.night.edm.class);
+//                startActivity(intentLoadNewActivity);
+//            }
+//
+//        });
         standup = (CardView) findViewById(R.id.Standup_card);
         standup.setOnClickListener(new View.OnClickListener() {
             @Override

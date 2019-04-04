@@ -24,25 +24,24 @@
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:textSize="40dp"
+            android:text="STAR NIGHT" />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:textSize="20dp"
+            android:text="Graciously gilding the core of Encore are it's splendid Star-nights lined back to back to heighten the gusto which is already touching skies. Gear up one and all to witness the insanely thrilling and crazily electrifying moments brimming with sensational aura all around. We are all set to
+load you up so don't miss the chance to witness these sparkling musical nights." />
 
         <TextView
             android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="Coordinator:" />
 
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
+
 
 
     </LinearLayout>

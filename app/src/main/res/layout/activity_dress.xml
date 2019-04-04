@@ -7,6 +7,9 @@
     android:padding="20dp"
     tools:context=".arts_and_literary_events.dress">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -23,7 +26,8 @@
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:textSize="40dp"
+            android:text="DRESS DESIGNING" />
 
         <TextView
             android:id="@+id/textView6"
@@ -35,15 +39,24 @@
             android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:textSize="20dp"
+            android:text="Do you have what it takes to make your creativity do marvels? As said Costume is the
+expression of beauty and design is the journey of discovery. ENCORE’19 presents ‘DRESS
+DESIGNING’ to discover beauty in the art designing costumes and express your exquisite
+thoughts. Gear up to dress your friend in the most innovative fashion and let your design do
+wonders." />
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="Coodinators- \nShrey Dubey(9467658904)\nKashish Panjwani(9412247526)"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            />
 
 
     </LinearLayout>
+</ScrollView>
 
 </RelativeLayout>

@@ -8,6 +8,9 @@
 
     tools:context=".sports_events.carrom">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -24,28 +27,27 @@
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:textSize="40dp"
+            android:text="CARROM" />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:textSize="20dp"
+            android:text="Encore’19 brings you the very classic game of Carrom, a game that every Indian child has enjoyed playing while growing up. A game that seems to be pretty easy but only the one who has achieved mastery in it honestly knows of the amount of concentration and skills required to attain expertise." />
 
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
+            android:paddingTop="20dp"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="Coordinator :\n Ankit Kumar (9149329068)" />
 
 
     </LinearLayout>
 
+</ScrollView>
 
 </RelativeLayout>

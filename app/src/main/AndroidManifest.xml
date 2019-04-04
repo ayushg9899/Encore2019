@@ -9,9 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".sports_events.kabaddi"
-            android:theme="@style/AppTheme.CustomTheme" ></activity>
-        <activity android:name=".technical_events.aero"
+        <activity android:name=".performances"
+            android:label="PERFORMANCES"></activity>
+        <activity android:name=".mobile"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".astro"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".stargazing"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity
+            android:name=".sports_events.kabaddi"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".technical_events.aero"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
             android:name=".main_events"
@@ -51,9 +61,6 @@
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
             android:name=".night.standup"
-            android:theme="@style/AppTheme.CustomTheme" />
-        <activity
-            android:name=".night.edm"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
             android:name=".arts_and_literary_events.poetry"
@@ -139,27 +146,16 @@
         <activity
             android:name=".cultural_events.dance"
             android:theme="@style/AppTheme.CustomTheme" />
-        <activity
-            android:name=".informal"
-            android:label="INFORMAL" />
-        <activity
-            android:name=".arts"
-            android:label="ARTS" />
-        <activity
-            android:name=".nights"
-            android:label="NIGHTS" />
-        <activity
-            android:name=".sports"
-            android:label="SPORTS" />
-        <activity
-            android:name=".technical"
-            android:label="TECHNICAL" />
-        <activity
-            android:name=".cultural"
-            android:label="CULTURAL" />
+        <activity android:name=".nights"></activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".splash"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

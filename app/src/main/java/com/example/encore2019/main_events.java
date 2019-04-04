@@ -1,9 +1,11 @@
 package com.example.encore2019;
 
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.Toolbar;
 
 import android.support.v4.app.Fragment;
@@ -17,6 +19,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.view.WindowManager;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.encore2019.R;
@@ -24,9 +28,16 @@ import com.example.encore2019.informal_events.laser;
 
 public class main_events extends AppCompatActivity {
 
+
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
+    }
+
+    public ImageView Back;
     TabLayout tabLayout;
     private int[] tabIcons = {
-            R.drawable.computer,
+            R.drawable.monitor,
             R.drawable.inclinedmicrophone,
             R.drawable.football2,
             R.drawable.pencil1,
@@ -55,12 +66,25 @@ public class main_events extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
+        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
         toolbar.setTitle("EVENTS");
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
-
+//        Back = (ImageView) findViewById(R.id.back);
+//        Back.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intentLoadNewActivity= new Intent(main_events.this, MainActivity.class);
+//                startActivity(intentLoadNewActivity);
+//            }
+//
+//        });
 
 
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
@@ -100,10 +124,13 @@ public class main_events extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            finish();
-            System.exit(0);
-        }
+//        if (id == R.id.action_settings) {
+//            finish();
+//            System.exit(0);
+//        }
+//            if (id == R.id.back) {
+//
+//            }
 
         return super.onOptionsItemSelected(item);
     }

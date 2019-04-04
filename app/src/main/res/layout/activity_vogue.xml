@@ -7,7 +7,9 @@
     android:padding="20dp"
     tools:context=".cultural_events.vogue">
 
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -17,34 +19,34 @@
             android:id="@+id/imageView3"
             android:layout_width="wrap_content"
             android:layout_height="200dp"
-            android:background="@drawable/rampwalk"
+            android:background="@drawable/finalyearwalk"
             android:elevation="20dp" />
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:textSize="40dp"
+            android:text="SPOTLIGHT" />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:textSize="20dp"
+            android:text="Fashion is what you can buy,but style is what you posses. Fashion is what u being offered four times a year,but style is what you choose.
+            Here's presenting you IET's ENCORE2k19 rampwalk and fashion competition.The stage is set,the wait is for you to set fire on it.
+        If you are a fashion addict ,your walk ,creativity and confidence we gonna predict." />
 
         <TextView
             android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:text="TextView" />
 
 
     </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>

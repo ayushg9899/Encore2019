@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sports_events.chess"
+    android:padding="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:background="@drawable/stargazing1"
+                android:elevation="20dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="STARGAZING"
+                android:textSize="40dp"/>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Ever fantasied about having your own Millenium Falcon and swooshing across the cosmos like Han Solo did? Ever thought of swimming through the galaxies, strolling across the macrocosm? Well you got your lucky ticket! Encore'19 gives you a chance to materialise all your wildest reveries, with its exclusive flagship event Stargazing. We give you a chance to see things( may be a couple of UFOs and aliens too) through an altogether different spectacle. So get on the ship everyone and make this summer of yours a bit more starry.Remember, the cosmos await you!"
+/>
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:paddingTop="20dp"
+                android:text="Coordinator : Adarsh Tiwari(7084104740)" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -23,24 +23,21 @@
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:textSize="40dp"
+            android:text="DA VINCI HUNT" />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
-
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:textSize="20dp"
+            android:text="An event you'll witness this Encore'19, that will leave you intrigued, the Treasure Hunt - Da Vinci Code is going to be conducted in a never seen before way - on an online platform. As fresh is the idea, so is the event. So wake up the Mel Fisher within you and buckle up for this wacky event. Use your wit, ponder a bit, utilise the clue, who knows the winner will be you!" />
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:text="TextView" />
 
 

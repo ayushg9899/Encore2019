@@ -378,6 +378,8 @@
                         android:text="Venue: Audi" />
                 </android.support.v7.widget.CardView>
 
+
+
             </LinearLayout>
         </ScrollView>
 
