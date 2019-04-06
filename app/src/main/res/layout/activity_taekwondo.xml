@@ -44,7 +44,18 @@
                 android:textSize="15dp"
                 android:text="Coordinator :\n Ankit Kumar (9149329068)" />
 
-
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:background="@drawable/customborder"
+                android:alpha="0.5"
+                android:text="REGISTER"
+                android:textSize="14sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
     </ScrollView>

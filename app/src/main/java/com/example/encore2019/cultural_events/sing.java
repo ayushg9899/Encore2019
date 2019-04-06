@@ -1,12 +1,18 @@
 package com.example.encore2019.cultural_events;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
+import android.view.View;
+import android.widget.Button;
 
 import com.example.encore2019.R;
 
 public class sing extends AppCompatActivity {
+
+    public Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,5 +26,14 @@ public class sing extends AppCompatActivity {
         int height=dm.heightPixels;
 
         getWindow().setLayout((int)(width*.8),(int)(height*.8));
+        button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent("android.intent.action.VIEW", Uri.parse("http://www.encore19.com/"));
+                startActivity(i);
+            }
+
+        });
     }
 }

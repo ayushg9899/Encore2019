@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="40dp"
-                android:text="ROBO WARS" />
+                android:text="REAL STEEL" />
 
             <TextView
                 android:id="@+id/textView6"
@@ -44,7 +44,20 @@ off-the-shelf items."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="10dp"
-                android:text="Coordinator:" />
+                android:text="Coordinators:\n Lekhraj Singh(8354815793)" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:background="@drawable/customborder"
+                android:alpha="0.5"
+                android:text="REGISTER"
+                android:textSize="14sp"
+                android:textStyle="bold" />
 
 
 

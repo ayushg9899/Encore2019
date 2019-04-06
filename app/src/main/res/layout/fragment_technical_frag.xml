@@ -208,7 +208,7 @@
                         android:ems="10"
                         android:fontFamily="sans-serif-black"
                         android:inputType="textPersonName"
-                        android:text="ROBO SUMO"
+                        android:text="REAL STEEL"
                         android:textSize="21sp" />
 
                     <TextView

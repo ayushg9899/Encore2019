@@ -8,16 +8,10 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link day1.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link day1#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class day1 extends Fragment {
     @Nullable
     @Override
@@ -29,5 +23,8 @@ public class day1 extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         getActivity().setTitle("DAY 1");
+
+
+
     }
 }

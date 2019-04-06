@@ -3,6 +3,7 @@ package com.example.encore2019;
 import android.content.ClipData;
 import android.content.Intent;
 import android.media.Image;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -22,6 +23,7 @@ import android.widget.AdapterView;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.example.encore2019.night.edm;
 
@@ -39,6 +41,7 @@ public class MainActivity extends AppCompatActivity
     public CardView astro;
     public CardView mobile;
     public CardView starg;
+    public ClipData.Item web;
 
 
     //  private static int SPLASH_TIME_OUT = 4000;
@@ -58,6 +61,10 @@ public class MainActivity extends AppCompatActivity
 //
 //        },SPLASH_TIME_OUT);
 //        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+//
+//            Intent bi=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com.kh"));
+//startActivity(bi);
 
 
 
@@ -276,8 +283,9 @@ public class MainActivity extends AppCompatActivity
             Intent i = new Intent(MainActivity.this,Main2Activity.class);
             startActivity(i);
 
-        } else if (id == R.id.Contact) {
-
+        } else if (id == R.id.Weblink) {
+                    Intent i = new Intent("android.intent.action.VIEW", Uri.parse("http://www.encore19.com/"));
+                    startActivity(i);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

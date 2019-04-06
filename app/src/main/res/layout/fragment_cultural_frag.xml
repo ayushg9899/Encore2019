@@ -244,7 +244,7 @@
                         android:ems="10"
                         android:fontFamily="sans-serif-black"
                         android:inputType="textPersonName"
-                        android:text="SPOTLIGHT"
+                        android:text="VOGUE"
                         android:textSize="21sp" />
 
                     <TextView

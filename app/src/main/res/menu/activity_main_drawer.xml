@@ -38,9 +38,12 @@
             android:icon="@drawable/ic_menu_send"
             android:title="About us" />
         <item
-            android:id="@+id/Contact"
+            android:id="@+id/Weblink"
             android:icon="@drawable/ic_menu_send"
-            android:title="Contact us" />
+            android:title="Website">
+
+        </item>
+
     </group>
 
 </menu>

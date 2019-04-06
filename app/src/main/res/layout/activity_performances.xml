@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
         android:layout_alignParentTop="true">
 
         <LinearLayout
@@ -39,7 +40,7 @@
                 <ImageView
                     android:id="@+id/social"
                     android:layout_width="match_parent"
-                    android:layout_height="300dp"
+                    android:layout_height="250dp"
                     android:background="@drawable/social1"
                     android:elevation="20dp" />
 
@@ -83,7 +84,7 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                     <ImageView
                         android:id="@+id/finaldance_image"
                         android:layout_width="match_parent"
-                        android:layout_height="300dp"
+                        android:layout_height="250dp"
                         android:background="@drawable/fyd1"
                         android:elevation="20dp" />
 
@@ -101,7 +102,7 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                         android:layout_height="wrap_content"
                         android:textSize="15dp"
                         android:paddingTop="20dp"
-                        android:text="Coordinator :\n Ankit Kumar (9149329068)" />
+                        android:text="Coordinators:\n Siddharth kaithwas(9170572906)\n Utkarsh deep (7023460719)" />
 
                 </LinearLayout>
             </ScrollView>
@@ -129,7 +130,7 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                     <ImageView
                         android:id="@+id/finalwalk_image"
                         android:layout_width="match_parent"
-                        android:layout_height="300dp"
+                        android:layout_height="250dp"
                         android:background="@drawable/rampwalk"
                         android:elevation="20dp" />
 
@@ -174,7 +175,7 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                     <ImageView
                         android:id="@+id/kavyutsav_image"
                         android:layout_width="match_parent"
-                        android:layout_height="300dp"
+                        android:layout_height="250dp"
                         android:background="@drawable/kavi"
                         android:elevation="20dp" />
 
@@ -191,7 +192,7 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                         android:layout_height="wrap_content"
                         android:textSize="15dp"
                         android:paddingTop="20dp"
-                        android:text="Coordinator :\n Ankit Kumar (9149329068)" />
+                        android:text="Coordinator :\n Swati Pandey (8090135278)" />
 
                 </LinearLayout>
 
@@ -218,7 +219,7 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                     <ImageView
                         android:id="@+id/insaniax_image"
                         android:layout_width="match_parent"
-                        android:layout_height="300dp"
+                        android:layout_height="250dp"
                         android:background="@drawable/insaniax1"
                         android:elevation="20dp" />
 
@@ -237,7 +238,7 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                         android:layout_height="wrap_content"
                         android:textSize="15dp"
                         android:paddingTop="20dp"
-                        android:text="Coordinator :\n Ankit Kumar (9149329068)" />
+                        android:text="Coordinators:\n Siddharth kaithwas(9170572906)\n Utkarsh deep (7023460719)" />
 
                 </LinearLayout>
                 </ScrollView>
@@ -263,7 +264,7 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                     <ImageView
                         android:id="@+id/auroras_image"
                         android:layout_width="match_parent"
-                        android:layout_height="300dp"
+                        android:layout_height="250dp"
                         android:background="@drawable/auroras"
                         android:elevation="20dp" />
 
@@ -282,7 +283,7 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                         android:layout_height="wrap_content"
                         android:textSize="15dp"
                         android:paddingTop="20dp"
-                        android:text="Coordinator :\n Ankit Kumar (9149329068)" />
+                        android:text="Coordinators : \nRachit Srivastava(7007059767)" />
 
                 </LinearLayout>
                 </ScrollView>
@@ -307,7 +308,7 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                     <ImageView
                         android:id="@+id/swaranjali_image"
                         android:layout_width="match_parent"
-                        android:layout_height="300dp"
+                        android:layout_height="250dp"
                         android:background="@drawable/swaranjali"
                         android:elevation="20dp" />
 

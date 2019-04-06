@@ -34,6 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="5dp"
+            android:textSize="20dp"
             android:text="If I cannot fly, let me sing!” Man must have asked of God for the gift of voice and words; and the ability to so gracefully decorate his thoughts with language. For the one who sings knows not no boundaries but only the joy of expression - the joy that follows a song felt from the heart and sung from the soul. And nothing then is more beautiful, and nothing then is more enticing. And surely, nothing is more satisfying than singing your heart out loud." />
 
         <TextView
@@ -42,8 +43,20 @@
             android:layout_height="wrap_content"
             android:paddingTop="20dp"
             android:textSize="15dp"
-            android:text="Coordinators : \nShubham Trivedi(9450768361)" />
+            android:text="Coordinators : \nShubham Trivedi(9450768361)(hindi)\nRachit Srivastava(7007059767)(western)" />
 
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/customborder"
+            android:alpha="0.5"
+            android:text="REGISTER"
+            android:textSize="14sp"
+            android:textStyle="bold" />
 
 
     </LinearLayout>

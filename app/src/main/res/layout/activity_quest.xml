@@ -45,8 +45,20 @@ anything else to win this quest. Just simple riddles leads the way to treasure .
             android:layout_height="wrap_content"
             android:paddingTop="20dp"
             android:textSize="15dp"
-            android:text="Coordinators : \nLakhraj Singh\nYaduveer Singh" /> />
+            android:text="Coordinators:\n Pranav Srivastava(8960615746)" />
 
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/customborder"
+            android:alpha="0.5"
+            android:text="REGISTER"
+            android:textSize="14sp"
+            android:textStyle="bold" />
 
 
 

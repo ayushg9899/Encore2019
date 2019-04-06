@@ -33,21 +33,23 @@
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:textSize="20dp"
             android:text="Encore'19 brings to you a stunt show that will give you that much sought-after adrenaline rush. Watch out as your skin reddens and your hair sways left and right. Grab this chance to witness the most enthralling event of the year." />
 
-        <TextView
-            android:id="@+id/textView7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="20dp"
-            android:text="Coordinators" />
 
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="match_parent"
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Contact no : " />
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/customborder"
+            android:alpha="0.5"
+            android:text="REGISTER"
+            android:textSize="14sp"
+            android:textStyle="bold" />
 
 
     </LinearLayout>

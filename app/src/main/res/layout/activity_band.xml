@@ -39,13 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="20dp"
-            android:text="Coordinator :  DEEPAK RAJ" />
-
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Contact no. : 7985813297" />
+            android:text="Coordinator : \n DEEPAK RAJ(7985813297)" />
 
 
     </LinearLayout>

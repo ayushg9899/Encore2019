@@ -27,24 +27,35 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="40dp"
-            android:text="SPOTLIGHT" />
+            android:text="VOGUE" />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:text="Fashion is what you can buy,but style is what you posses. Fashion is what u being offered four times a year,but style is what you choose.
-            Here's presenting you IET's ENCORE2k19 rampwalk and fashion competition.The stage is set,the wait is for you to set fire on it.
-        If you are a fashion addict ,your walk ,creativity and confidence we gonna predict." />
+            android:text="Fashion is what you can buy,but style is what you posses. Fashion is what u being offered four times a year,but style is what you choose.Here's presenting you IET's ENCORE2k19 rampwalk and fashion competition.The stage is set,the wait is for you to set fire on it.
+            If you are a fashion addict, your walk ,creativity and confidence we gonna predict." />
 
         <TextView
             android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="TextView" />
+            android:text="Coordinator :\n Sparsh Singh(8874729487)\n Nitin Saiani(8853425805)" />
 
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/customborder"
+            android:alpha="0.5"
+            android:text="REGISTER"
+            android:textSize="14sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
     </ScrollView>

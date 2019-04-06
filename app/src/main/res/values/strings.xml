@@ -15,6 +15,8 @@
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
     <string name="tab_text_3">Tab 3</string>
+    <string name="link"><a href="https://www.encore19.com/">ENCORE</a></string>
+    <string name="linking"><a href="https://www.encore19.com/">Click To Register</a></string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_main_events">main_events</string>
 </resources>

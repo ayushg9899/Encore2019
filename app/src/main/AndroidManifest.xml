@@ -9,14 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".performances"
-            android:label="PERFORMANCES"></activity>
-        <activity android:name=".mobile"
-            android:theme="@style/AppTheme.CustomTheme"/>
-        <activity android:name=".astro"
-            android:theme="@style/AppTheme.CustomTheme"/>
-        <activity android:name=".stargazing"
-            android:theme="@style/AppTheme.CustomTheme"/>
+
+        <activity
+            android:name=".performances"
+            android:label="PERFORMANCES" />
+        <activity
+            android:name=".mobile"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".astro"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".stargazing"
+            android:theme="@style/AppTheme.CustomTheme" />
         <activity
             android:name=".sports_events.kabaddi"
             android:theme="@style/AppTheme.CustomTheme" />
@@ -146,7 +151,7 @@
         <activity
             android:name=".cultural_events.dance"
             android:theme="@style/AppTheme.CustomTheme" />
-        <activity android:name=".nights"></activity>
+        <activity android:name=".nights" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
