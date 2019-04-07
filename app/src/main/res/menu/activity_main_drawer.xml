@@ -37,12 +37,16 @@
             android:id="@+id/About"
             android:icon="@drawable/ic_menu_send"
             android:title="About us" />
+
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Contact us" />
+
         <item
             android:id="@+id/Weblink"
             android:icon="@drawable/ic_menu_send"
-            android:title="Website">
-
-        </item>
+            android:title="Website"/>
 
     </group>
 

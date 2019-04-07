@@ -38,10 +38,10 @@ public class MainActivity extends AppCompatActivity
   public CardView Arts;
   public CardView Informal;
   public CardView perf;
-    public CardView astro;
-    public CardView mobile;
-    public CardView starg;
-    public ClipData.Item web;
+  public CardView astro;
+  public CardView mobile;
+  public CardView starg;
+  public ClipData.Item web;
 
 
     //  private static int SPLASH_TIME_OUT = 4000;
@@ -268,15 +268,23 @@ public class MainActivity extends AppCompatActivity
             startActivity(i);
 
         } else if (id == R.id.Arts) {
-            Intent i = new Intent(MainActivity.this,main_events.class);
-            i.putExtra("frag",3);
+            Intent i = new Intent(MainActivity.this, main_events.class);
+            i.putExtra("frag", 3);
             startActivity(i);
 
-        } else if (id == R.id.About) {}
-
+        }
         else if (id == R.id.Informal) {
             Intent i = new Intent(MainActivity.this,main_events.class);
             i.putExtra("frag",4);
+            startActivity(i);
+        }
+        else if (id == R.id.contact) {
+            Intent i = new Intent(MainActivity.this, contact.class);
+            startActivity(i);
+        }
+
+        else if (id == R.id.About) {
+            Intent i = new Intent(MainActivity.this, about.class);
             startActivity(i);
         }
         else if (id == R.id.Schedule) {
@@ -288,7 +296,8 @@ public class MainActivity extends AppCompatActivity
                     startActivity(i);
         }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+
+            DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }

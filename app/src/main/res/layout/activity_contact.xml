@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blueworld"
+    tools:context=".contact">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FDFBFB"
+                android:textSize="30dp"
+                android:text="CONTACT US"
+                android:fontFamily="casual"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FDFBFB"
+                android:textSize="20dp"
+                android:text="COORDINATORS"
+
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/swati" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:text="SWATI PANDEY\n (+91-8090135278)"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/ayush" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:text="ANKIT CHAUHAN\n (+91-9149329068)"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"
+                        android:layout_marginBottom="5dp"
+                       android:background="@drawable/kankane" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:text="UDDESHYA KANKANE\n (+91-9452507475)"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FDFBFB"
+                android:textSize="20dp"
+                android:text="DEVELOPERS"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                />
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"
+                        android:layout_marginBottom="5dp"
+                    tools:srcCompat="@tools:sample/avatars[0]" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:text="AYUSH GUPTA\n (+91-8840304092)"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/goel" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:text="TILAK GOEL \n (+91-8795809577)"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
