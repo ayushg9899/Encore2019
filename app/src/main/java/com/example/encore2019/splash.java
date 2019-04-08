@@ -1,87 +1,45 @@
 package com.example.encore2019;
 
-import android.app.Activity;
 import android.content.Intent;
-import android.media.MediaPlayer;
-import android.net.Uri;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.MotionEvent;
-import android.view.WindowManager;
-import android.widget.VideoView;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 
-public class splash extends Activity {
-    private boolean ispaused = false;
+public class splash extends AppCompatActivity {
+
+    public ImageView trans;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_splash2);
 
-        // Darken the status bar (optional - Create your own Utils Class)
-//        MyUtils.darkenStatusBar(this, R.color.colorPrimaryDark);
-        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        ImageView trans = findViewById(R.id.trans);
+        Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade);
+        trans.startAnimation(animation);
 
-        setContentView(R.layout.activity_splash);
+        Thread timer = new Thread() {
 
-        VideoView vView = findViewById(R.id.video_view);
-        Uri video = Uri.parse("android.resource://" + getPackageName() + "/"
-                + R.raw.intro);
+            @Override
 
-        if (vView != null) {
-            vView.setVideoURI(video);
-            vView.setZOrderOnTop(true);
-            vView.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-                public void onCompletion(MediaPlayer mp) {
-                    jump();
+            public void run(){
+
+                try {
+                    sleep(4000);
+                    Intent i=new Intent(getApplicationContext(),MainActivity.class);
+                    startActivity(i);
+                    finish();
+                    super.run();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
-            });
 
 
-            vView.setOnErrorListener(new MediaPlayer.OnErrorListener() {
-                @Override
-                public boolean onError(MediaPlayer mediaPlayer, int i, int i1) {
-                    jump();
-                    return false;
-                }
-            });
 
-            vView.start();
-
-        }else{
-
-            jump();
         }
-    }
-
-
-    private void jump() {
-
-        // Jump to your Next Activity or MainActivity
-        Intent intent = new Intent(splash.this, MainActivity.class);
-        startActivity(intent);
-
-        splash.this.finish();
-
-    }
-
-    @Override
-    public boolean onTouchEvent(MotionEvent event) {
-        jump();
-        return true;
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        ispaused = true;
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        if (ispaused) {
-            jump();
-        }
-
-    }
-
+    };
+        timer.start();
+}
 }
