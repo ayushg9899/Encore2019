@@ -51,7 +51,6 @@
             android:orientation="horizontal">
 
             <android.support.v7.widget.CardView
-                android:id="@+id/social_card"
                 android:layout_width="330dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp">
@@ -67,14 +66,12 @@
                         android:padding="3dp">
 
                         <ImageView
-                            android:id="@+id/social"
                             android:layout_width="match_parent"
                             android:layout_height="250dp"
                             android:background="@drawable/social1"
                             android:elevation="20dp" />
 
                         <TextView
-                            android:id="@+id/social1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -89,7 +86,6 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/finaldance_card"
                 android:layout_width="350dp"
 
                 android:layout_height="match_parent"
@@ -107,7 +103,6 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                         android:padding="5dp">
 
                         <ImageView
-                            android:id="@+id/finaldance_image"
                             android:layout_width="match_parent"
                             android:layout_height="250dp"
 
@@ -115,7 +110,6 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                             android:elevation="20dp" />
 
                         <TextView
-                            android:id="@+id/finaldance1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Still have that Bollywood rush racing in your veins? Does the over-pompous dholak beats and  the throbbing rock guitars send your legs grooving? Come, spice up the stage , scale up the temperature and unhinge the crowd with your thumkas and jhatkas! So, go get that jhumka and set your pagdi in place because Abhi toh party shuru hui hai!"
@@ -124,7 +118,6 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                         </TextView>
 
                         <TextView
-                            android:id="@+id/finaldance2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:paddingTop="20dp"
@@ -139,7 +132,6 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
 
 
             <android.support.v7.widget.CardView
-                android:id="@+id/finalwalk_card"
                 android:layout_width="350dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp">
@@ -156,14 +148,12 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                         android:padding="5dp">
 
                         <ImageView
-                            android:id="@+id/finalwalk_image"
                             android:layout_width="match_parent"
                             android:layout_height="250dp"
                             android:background="@drawable/rampwalk"
                             android:elevation="20dp" />
 
                         <TextView
-                            android:id="@+id/finalwalk1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -173,7 +163,6 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                             android:textSize="20dp"></TextView>
 
                         <TextView
-                            android:id="@+id/finalwalk2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:paddingTop="20dp"
@@ -186,7 +175,6 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/kavyutsav_card"
                 android:layout_width="350dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp">
@@ -203,14 +191,12 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                         android:padding="5dp">
 
                         <ImageView
-                            android:id="@+id/kavyutsav_image"
                             android:layout_width="match_parent"
                             android:layout_height="250dp"
                             android:background="@drawable/kavi"
                             android:elevation="20dp" />
 
                         <TextView
-                            android:id="@+id/kavyutsav1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -218,7 +204,6 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                             android:textSize="20dp" />
 
                         <TextView
-                            android:id="@+id/kavyutsav2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:paddingTop="20dp"
@@ -232,7 +217,6 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
 
 
             <android.support.v7.widget.CardView
-                android:id="@+id/insaniax_card"
                 android:layout_width="350dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp">
@@ -249,14 +233,12 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                         android:padding="5dp">
 
                         <ImageView
-                            android:id="@+id/insaniax_image"
                             android:layout_width="match_parent"
                             android:layout_height="250dp"
                             android:background="@drawable/insaniax1"
                             android:elevation="20dp" />
 
                         <TextView
-                            android:id="@+id/insaniax1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -266,7 +248,6 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                         </TextView>
 
                         <TextView
-                            android:id="@+id/insaniax2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:paddingTop="20dp"
@@ -279,7 +260,6 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/auroras_card"
                 android:layout_width="350dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp">
@@ -296,14 +276,12 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                         android:padding="5dp">
 
                         <ImageView
-                            android:id="@+id/auroras_image"
                             android:layout_width="match_parent"
                             android:layout_height="250dp"
                             android:background="@drawable/auroras"
                             android:elevation="20dp" />
 
                         <TextView
-                            android:id="@+id/auroras1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -313,7 +291,6 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                         </TextView>
 
                         <TextView
-                            android:id="@+id/auroras2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:paddingTop="20dp"
@@ -326,7 +303,6 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/swaranjali_card"
                 android:layout_width="350dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp">
@@ -342,14 +318,12 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                         android:padding="5dp">
 
                         <ImageView
-                            android:id="@+id/swaranjali_image"
                             android:layout_width="match_parent"
                             android:layout_height="250dp"
                             android:background="@drawable/swaranjali"
                             android:elevation="20dp" />
 
                         <TextView
-                            android:id="@+id/swaranjali1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
@@ -357,7 +331,6 @@ Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - 
                             android:textSize="20dp" />
 
                         <TextView
-                            android:id="@+id/swaranjali2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:paddingTop="20dp"

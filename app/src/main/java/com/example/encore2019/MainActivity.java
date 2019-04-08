@@ -41,32 +41,12 @@ public class MainActivity extends AppCompatActivity
   public CardView astro;
   public CardView mobile;
   public CardView starg;
-  public ClipData.Item web;
 
 
-    //  private static int SPLASH_TIME_OUT = 4000;
-//        public int[] myImageList = new int[]{R.drawable.tecni, R.drawable.cult,R.drawable.sports1, R.drawable.arts,R.drawable.informals};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-//        new Handler().postDelayed(new Runnable()){
-//            @Override
-//                    public void run(){
-//                Intent homeIntent = new Intent(MainActivity.this, HomeActivity.class)
-//                        startActivity(homeIntent);
-//                finish();
-//            }
-//
-//        },SPLASH_TIME_OUT);
-//        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
-//
-//            Intent bi=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com.kh"));
-//startActivity(bi);
-
-
 
         Cultural = findViewById(R.id.Cultural);
         Cultural.setOnClickListener(new View.OnClickListener() {
@@ -98,15 +78,6 @@ public class MainActivity extends AppCompatActivity
             }
 
         });
-//        Nights = (CardView) findViewById(R.id.Nights);
-//        Nights.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intentLoadNewActivity= new Intent(MainActivity.this, nights.class);
-//                startActivity(intentLoadNewActivity);
-//            }
-//
-//        });
         Arts = findViewById(R.id.Arts);
         Arts.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -127,8 +98,6 @@ public class MainActivity extends AppCompatActivity
             }
 
         });
-
-
         standup = findViewById(R.id.stand_card);
         standup.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -137,7 +106,6 @@ public class MainActivity extends AppCompatActivity
                 startActivity(intentLoadNewActivity);
             }
         });
-
         star = findViewById(R.id.star_card);
         star.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -146,7 +114,6 @@ public class MainActivity extends AppCompatActivity
                 startActivity(intentLoadNewActivity);
             }
         });
-
         band = findViewById(R.id.band_card);
         band.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -155,7 +122,6 @@ public class MainActivity extends AppCompatActivity
                 startActivity(intentLoadNewActivity);
             }
         });
-
         perf = findViewById(R.id.Performance);
         perf.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -164,7 +130,6 @@ public class MainActivity extends AppCompatActivity
                 startActivity(intentLoadNewActivity);
             }
         });
-
         astro = findViewById(R.id.astro_card);
         astro.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -173,7 +138,6 @@ public class MainActivity extends AppCompatActivity
                 startActivity(intentLoadNewActivity);
             }
         });
-
         mobile = findViewById(R.id.mobile_card);
         mobile.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -182,7 +146,6 @@ public class MainActivity extends AppCompatActivity
                 startActivity(intentLoadNewActivity);
             }
         });
-
         starg = findViewById(R.id.starg_card);
         starg.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -32,7 +32,6 @@
 
 
                     <TextView
-                        android:id="@+id/e1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -81,7 +80,6 @@
 
 
                     <TextView
-                        android:id="@+id/paint"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -131,7 +129,6 @@
 
 
                     <TextView
-                        android:id="@+id/e2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -150,7 +147,7 @@
                         android:layout_marginBottom="4dp"
                         android:background="#FFF072"
                         android:padding="4dp"
-                        android:text="Venue: Shaurya ground"
+                        android:text="Venue: Shaurya Ground"
                         android:textColor="#968624"
                         android:textStyle="bold" />
 
@@ -180,7 +177,6 @@
 
 
                     <TextView
-                        android:id="@+id/e3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -229,7 +225,6 @@
 
 
                     <TextView
-                        android:id="@+id/e4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -278,7 +273,6 @@
 
 
                     <TextView
-                        android:id="@+id/e5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -297,7 +291,7 @@
                         android:layout_marginBottom="4dp"
                         android:background="#FFF072"
                         android:padding="4dp"
-                        android:text="Venue: Sac"
+                        android:text="Venue: SAC"
                         android:textColor="#968624"
                         android:textStyle="bold" />
 
@@ -327,7 +321,6 @@
 
 
                     <TextView
-                        android:id="@+id/e6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -376,7 +369,6 @@
 
 
                     <TextView
-                        android:id="@+id/e7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -395,7 +387,7 @@
                         android:layout_marginBottom="4dp"
                         android:background="#FFF072"
                         android:padding="4dp"
-                        android:text="Venue: Sac"
+                        android:text="Venue: SAC"
                         android:textColor="#968624"
                         android:textStyle="bold" />
 
@@ -425,7 +417,6 @@
 
 
                     <TextView
-                        android:id="@+id/e8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -474,7 +465,6 @@
 
 
                     <TextView
-                        android:id="@+id/e9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -523,7 +513,6 @@
 
 
                     <TextView
-                        android:id="@+id/e10"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -572,7 +561,6 @@
 
 
                     <TextView
-                        android:id="@+id/e11"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -621,7 +609,6 @@
 
 
                     <TextView
-                        android:id="@+id/e12"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -670,7 +657,6 @@
 
 
                     <TextView
-                        android:id="@+id/e13"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"

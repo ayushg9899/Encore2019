@@ -15,27 +15,23 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:background="@drawable/bandwars"
             android:elevation="20dp" />
 
         <TextView
-            android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="40dp"
             android:text="BAND WARS" />
 
         <TextView
-            android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Panic at the disco is the western music event which is a remarkable blend of different blend of different generes of rock and mental music. The band that will perform on the  stage will leave the crowd yearning for more. It witness a massive audience as it offers an enthralling experience full of headbangs, fast riffs and soulful outros! Looking forward to see you there!" />
-
+            android:textSize="20dp"
+            android:text="Do you think your voice matters? Do you have the power to change the mood and moves of the people with a single tone? If you think you can make the crowd forget about themselves in your performance, then this is the place to be in. Encore'19 welcomes you to Band Wars, an arena to battle with massive enthusiasm."/>
         <TextView
-            android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="20dp"

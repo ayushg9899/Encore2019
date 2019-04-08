@@ -25,7 +25,7 @@
         android:layout_gravity="center"
         android:paddingTop="10dp"
         android:text="ENCORE '19"
-        android:textColor="#CFB433"
+        android:textColor="#FFCFB433"
         android:textSize="40dp" />
 
 

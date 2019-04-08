@@ -14,7 +14,6 @@
         tools:context=".sports">
 
         <ScrollView
-            android:id="@+id/scrollView3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginStart="2dp">
@@ -33,7 +32,6 @@
                     app:cardCornerRadius="20dp">
 
                     <ImageView
-                        android:id="@+id/Badminton_icon"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
@@ -53,7 +51,6 @@
                         android:textSize="21sp" />
 
                     <TextView
-                        android:id="@+id/Badminton_venue"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="110dp"
@@ -72,7 +69,6 @@
                     app:cardCornerRadius="20dp">
 
                     <ImageView
-                        android:id="@+id/futsal_icon"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
@@ -92,14 +88,13 @@
                         android:textSize="21sp" />
 
                     <TextView
-                        android:id="@+id/futsal_venue"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="110dp"
                         android:layout_marginTop="50dp"
                         android:ems="10"
                         android:inputType="textPersonName"
-                        android:text="Venue: Shaurya ground" />
+                        android:text="Venue: Shaurya Ground" />
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
@@ -110,7 +105,6 @@
                     app:cardElevation="10dp"
                     app:cardCornerRadius="20dp">
                     <ImageView
-                        android:id="@+id/Chess_icon"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
@@ -130,7 +124,6 @@
                         android:textSize="21sp" />
 
                     <TextView
-                        android:id="@+id/Chess_venue"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="110dp"
@@ -149,7 +142,6 @@
                     app:cardCornerRadius="20dp">
 
                     <ImageView
-                        android:id="@+id/carrom_icon"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
@@ -169,7 +161,6 @@
                         android:textSize="21sp" />
 
                     <TextView
-                        android:id="@+id/carrom_venue"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="110dp"
@@ -188,7 +179,6 @@
                     app:cardCornerRadius="20dp">
 
                     <ImageView
-                        android:id="@+id/Taekwondo_icon"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
@@ -208,7 +198,6 @@
                         android:textSize="21sp" />
 
                     <TextView
-                        android:id="@+id/Taekwondo_venue"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="110dp"
@@ -227,7 +216,6 @@
                     app:cardCornerRadius="20dp">
 
                     <ImageView
-                        android:id="@+id/table_icon"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
@@ -247,7 +235,6 @@
                         android:textSize="21sp" />
 
                     <TextView
-                        android:id="@+id/table_venue"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="110dp"
@@ -266,7 +253,6 @@
                     app:cardCornerRadius="20dp">
 
                     <ImageView
-                        android:id="@+id/kabaddi_icon"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
@@ -286,14 +272,13 @@
                         android:textSize="21sp" />
 
                     <TextView
-                        android:id="@+id/kabaddi_venue"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="110dp"
                         android:layout_marginTop="50dp"
                         android:ems="10"
                         android:inputType="textPersonName"
-                        android:text="Venue: Shaurya ground" />
+                        android:text="Venue: Shaurya Ground" />
                 </android.support.v7.widget.CardView>
 
             </LinearLayout>

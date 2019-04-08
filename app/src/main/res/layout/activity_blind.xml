@@ -16,28 +16,24 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:background="@drawable/blind"
             android:elevation="20dp" />
 
         <TextView
-            android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="BLIND ART"
             android:textSize="40dp"/>
 
         <TextView
-            android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
             android:text="Blind art is the fun event, where you mess up your drawing with your hands while using someone else's brain. ln this event one of the participants will be blindfolded while another one will be handcuffed. The one who is handcuffed has to describe what to draw—from his imagination to the blindfolded participant who will draw what is being delivered." />
 
         <TextView
-            android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="20dp"

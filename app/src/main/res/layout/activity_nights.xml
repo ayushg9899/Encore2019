@@ -7,7 +7,6 @@
     tools:context=".nights">
 
     <ScrollView
-        android:id="@+id/scrollView3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="2dp">
@@ -26,7 +25,6 @@
                 app:cardCornerRadius="20dp">
 
                 <ImageView
-                    android:id="@+id/Standup_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -46,7 +44,6 @@
                     android:textSize="21sp" />
 
                 <TextView
-                    android:id="@+id/Standup_venue"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="110dp"
@@ -65,7 +62,6 @@
                 app:cardCornerRadius="20dp">
 
                 <ImageView
-                    android:id="@+id/star_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -85,7 +81,6 @@
                     android:textSize="21sp" />
 
                 <TextView
-                    android:id="@+id/star_venue"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="110dp"
@@ -104,7 +99,6 @@
                 app:cardCornerRadius="20dp">
 
                 <ImageView
-                    android:id="@+id/edm_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -124,7 +118,6 @@
                     android:textSize="21sp" />
 
                 <TextView
-                    android:id="@+id/edm_venue"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="110dp"
@@ -143,7 +136,6 @@
                 app:cardCornerRadius="20dp">
 
                 <ImageView
-                    android:id="@+id/bike_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -163,7 +155,6 @@
                     android:textSize="21sp" />
 
                 <TextView
-                    android:id="@+id/bike_venue"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="110dp"

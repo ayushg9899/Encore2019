@@ -14,7 +14,6 @@
         tools:context=".informal">
 
         <ScrollView
-            android:id="@+id/scrollView3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginStart="2dp">
@@ -33,7 +32,6 @@
                     app:cardCornerRadius="20dp">
 
                     <ImageView
-                        android:id="@+id/pubg_icon"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
@@ -53,7 +51,6 @@
                         android:textSize="21sp" />
 
                     <TextView
-                        android:id="@+id/pubg_venue"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="110dp"
@@ -72,7 +69,6 @@
                     app:cardCornerRadius="20dp">
 
                     <ImageView
-                        android:id="@+id/laser_icon"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
@@ -92,7 +88,6 @@
                         android:textSize="21sp" />
 
                     <TextView
-                        android:id="@+id/laser_venue"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="110dp"
@@ -111,7 +106,6 @@
                     app:cardCornerRadius="20dp">
 
                     <ImageView
-                        android:id="@+id/quest_icon"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
@@ -131,7 +125,6 @@
                         android:textSize="21sp" />
 
                     <TextView
-                        android:id="@+id/quest_venue"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="110dp"
@@ -150,7 +143,6 @@
                     app:cardCornerRadius="20dp">
 
                     <ImageView
-                        android:id="@+id/zorb_icon"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
@@ -170,7 +162,6 @@
                         android:textSize="21sp" />
 
                     <TextView
-                        android:id="@+id/zorb_venue"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="110dp"
@@ -189,7 +180,6 @@
                     app:cardCornerRadius="20dp">
 
                     <ImageView
-                        android:id="@+id/turn_icon"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
@@ -209,7 +199,6 @@
                         android:textSize="21sp" />
 
                     <TextView
-                        android:id="@+id/turn_venue"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="110dp"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    android:background="@drawable/pat"
+    android:background="@drawable/grey"
 
     tools:context=".MainActivity"
     tools:showIn="@layout/app_bar_main">
@@ -34,9 +34,7 @@
                 android:scrollbars=""
                 >
 
-
                 <LinearLayout
-                    android:id="@+id/gallery"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
@@ -57,7 +55,6 @@
 
                         <ImageView
                             android:layout_width="200dp"
-                            android:id="@+id/Technical1"
                             android:layout_height="175dp"
                             android:scaleType="fitXY"
                             android:src="@drawable/tecni" />
@@ -83,7 +80,6 @@
                                 android:layout_width="200dp"
                                 android:layout_height="175dp"
                                 android:scaleType="fitXY"
-                                android:id="@+id/Cultural1"
                                 android:src="@drawable/cult" />
                         </LinearLayout>
 
@@ -106,7 +102,6 @@
                                 android:layout_width="200dp"
                                 android:layout_height="175dp"
                                 android:scaleType="fitXY"
-                                android:id="@+id/Sports1"
                                 android:src="@drawable/sports1" />
                         </LinearLayout>
 
@@ -129,7 +124,6 @@
                                 android:layout_width="200dp"
                                 android:layout_height="175dp"
                                 android:scaleType="fitXY"
-                                android:id="@+id/Arts1"
                                 android:src="@drawable/arts" />
                         </LinearLayout>
 
@@ -152,7 +146,6 @@
                                 android:layout_width="200dp"
                                 android:layout_height="175dp"
                                 android:scaleType="fitXY"
-                                android:id="@+id/Informal1"
                                 android:src="@drawable/informals" />
                         </LinearLayout>
 
@@ -180,7 +173,6 @@
 
 
         <LinearLayout
-            android:id="@+id/perfo_gallery"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
@@ -204,7 +196,6 @@
                         android:layout_height="175dp"
                         android:scaleType="fitXY"
 
-                        android:id="@+id/performance"
                         android:src="@drawable/perfo1" />
                 </LinearLayout>
 
@@ -230,7 +221,6 @@
 
 
                 <LinearLayout
-                    android:id="@+id/nights_gallery"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -250,7 +240,6 @@
                             android:padding="3dp">
 
                             <ImageView
-                                android:id="@+id/stand1"
                                 android:layout_width="200dp"
                                 android:layout_height="175dp"
                                 android:scaleType="fitXY"
@@ -274,7 +263,6 @@
                             android:padding="3dp">
 
                             <ImageView
-                                android:id="@+id/star"
                                 android:layout_width="200dp"
                                 android:layout_height="175dp"
                                 android:scaleType="fitXY"
@@ -298,7 +286,6 @@
                             android:padding="3dp">
 
                             <ImageView
-                                android:id="@+id/band"
                                 android:layout_width="200dp"
                                 android:layout_height="175dp"
                                 android:scaleType="fitXY"
@@ -327,7 +314,6 @@
                 >
 
                 <LinearLayout
-                    android:id="@+id/nakshatra_gallery"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
@@ -348,7 +334,6 @@
 
                             <ImageView
                                 android:layout_width="200dp"
-                                android:id="@+id/astro"
                                 android:layout_height="175dp"
                                 android:scaleType="fitXY"
                                 android:src="@drawable/astroquiz" />
@@ -374,7 +359,6 @@
                                 android:layout_width="200dp"
                                 android:layout_height="175dp"
                                 android:scaleType="fitXY"
-                                android:id="@+id/starg"
                                 android:src="@drawable/stargazing" />
                         </LinearLayout>
 
@@ -399,7 +383,6 @@
                                 android:layout_width="200dp"
                                 android:layout_height="175dp"
                                 android:scaleType="fitXY"
-                                android:id="@+id/mobile"
                                 android:src="@drawable/mobileplanet" />
                         </LinearLayout>
 
