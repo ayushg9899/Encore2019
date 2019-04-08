@@ -38,7 +38,7 @@ public class informal_frag extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         getActivity().setTitle("INFORMAL");
 
-        laser = (CardView) view.findViewById(R.id.laser_card);
+        laser = view.findViewById(R.id.laser_card);
         laser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -47,7 +47,7 @@ public class informal_frag extends Fragment {
             }
 
         });
-        laser1 = (TextView) view.findViewById(R.id.laser);
+        laser1 = view.findViewById(R.id.laser);
         laser1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -56,7 +56,7 @@ public class informal_frag extends Fragment {
             }
 
         });
-        turn = (CardView) view.findViewById(R.id.turn_card);
+        turn = view.findViewById(R.id.turn_card);
         turn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -64,7 +64,7 @@ public class informal_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        turn1 = (TextView) view.findViewById(R.id.turn);
+        turn1 = view.findViewById(R.id.turn);
         turn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -73,7 +73,7 @@ public class informal_frag extends Fragment {
             }
 
         });
-        zorb = (CardView) view.findViewById(R.id.zorb_card);
+        zorb = view.findViewById(R.id.zorb_card);
         zorb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -81,7 +81,7 @@ public class informal_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        zorb1 = (TextView) view.findViewById(R.id.zorb_year);
+        zorb1 = view.findViewById(R.id.zorb_year);
         zorb1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -90,7 +90,7 @@ public class informal_frag extends Fragment {
             }
 
         });
-        quest = (CardView) view.findViewById(R.id.quest_card);
+        quest = view.findViewById(R.id.quest_card);
         quest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -98,7 +98,7 @@ public class informal_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        quest1 = (TextView) view.findViewById(R.id.quest);
+        quest1 = view.findViewById(R.id.quest);
         quest1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -116,7 +116,7 @@ public class informal_frag extends Fragment {
 //            }
 //        });
 
-        pubg = (CardView) view.findViewById(R.id.pubg_card);
+        pubg = view.findViewById(R.id.pubg_card);
         pubg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -124,7 +124,7 @@ public class informal_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        pubg1 = (TextView) view.findViewById(R.id.pubg);
+        pubg1 = view.findViewById(R.id.pubg);
         pubg1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

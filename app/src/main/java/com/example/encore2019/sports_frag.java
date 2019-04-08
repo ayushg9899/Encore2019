@@ -45,7 +45,7 @@ public class sports_frag extends Fragment {
         getActivity().setTitle("SPORTS");
 
 
-        badminton = (CardView) view.findViewById(R.id.Badminton_card);
+        badminton = view.findViewById(R.id.Badminton_card);
         badminton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -54,7 +54,7 @@ public class sports_frag extends Fragment {
             }
 
         });
-        badminton1 = (TextView) view.findViewById(R.id.Badminton);
+        badminton1 = view.findViewById(R.id.Badminton);
         badminton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -63,7 +63,7 @@ public class sports_frag extends Fragment {
             }
 
         });
-        chess = (CardView) view.findViewById(R.id.Chess_card);
+        chess = view.findViewById(R.id.Chess_card);
         chess.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -72,7 +72,7 @@ public class sports_frag extends Fragment {
             }
 
         });
-        chess1 = (TextView) view.findViewById(R.id.Chess);
+        chess1 = view.findViewById(R.id.Chess);
         chess1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -81,7 +81,7 @@ public class sports_frag extends Fragment {
             }
 
         });
-        futsal = (CardView) view.findViewById(R.id.futsal_card);
+        futsal = view.findViewById(R.id.futsal_card);
         futsal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -90,7 +90,7 @@ public class sports_frag extends Fragment {
             }
 
         });
-        futsal1 = (TextView) view.findViewById(R.id.futsal);
+        futsal1 = view.findViewById(R.id.futsal);
         futsal1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -99,7 +99,7 @@ public class sports_frag extends Fragment {
             }
 
         });
-        carrom = (CardView) view.findViewById(R.id.Carrom_card);
+        carrom = view.findViewById(R.id.Carrom_card);
         carrom.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -108,7 +108,7 @@ public class sports_frag extends Fragment {
             }
 
         });
-        carrom1 = (TextView) view.findViewById(R.id.carrom);
+        carrom1 = view.findViewById(R.id.carrom);
         carrom1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -117,7 +117,7 @@ public class sports_frag extends Fragment {
             }
 
         });
-        taekwondo = (CardView) view.findViewById(R.id.Taekwondo_card);
+        taekwondo = view.findViewById(R.id.Taekwondo_card);
         taekwondo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -126,7 +126,7 @@ public class sports_frag extends Fragment {
             }
 
         });
-        taekwondo1 = (TextView) view.findViewById(R.id.Taekwondo);
+        taekwondo1 = view.findViewById(R.id.Taekwondo);
         taekwondo1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -136,7 +136,7 @@ public class sports_frag extends Fragment {
 
         });
 
-        table = (CardView) view.findViewById(R.id.Table_card);
+        table = view.findViewById(R.id.Table_card);
         table.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -145,7 +145,7 @@ public class sports_frag extends Fragment {
             }
 
         });
-        table1 = (TextView) view.findViewById(R.id.table);
+        table1 = view.findViewById(R.id.table);
         table1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -155,7 +155,7 @@ public class sports_frag extends Fragment {
 
         });
 
-        kabaddi = (CardView) view.findViewById(R.id.kabaddi_card);
+        kabaddi = view.findViewById(R.id.kabaddi_card);
         kabaddi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -163,7 +163,7 @@ public class sports_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        kabaddi1 = (TextView) view.findViewById(R.id.kabaddi);
+        kabaddi1 = view.findViewById(R.id.kabaddi);
         kabaddi1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

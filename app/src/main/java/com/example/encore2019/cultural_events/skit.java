@@ -26,7 +26,7 @@ public class skit extends AppCompatActivity {
         int height=dm.heightPixels;
 
         getWindow().setLayout((int)(width*.8),(int)(height*.8));
-        button = (Button) findViewById(R.id.button);
+        button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

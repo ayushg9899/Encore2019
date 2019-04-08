@@ -49,7 +49,7 @@ public class arts_frag extends Fragment {
         getActivity().setTitle("ARTS AND LITERARY");
 
 
-        debate = (CardView) view.findViewById(R.id.debate_card);
+        debate = view.findViewById(R.id.debate_card);
         debate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -58,7 +58,7 @@ public class arts_frag extends Fragment {
             }
 
         });
-        debate1 = (TextView) view.findViewById(R.id.debate);
+        debate1 = view.findViewById(R.id.debate);
         debate1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -67,7 +67,7 @@ public class arts_frag extends Fragment {
             }
 
         });
-        dress1 = (TextView) view.findViewById(R.id.dress);
+        dress1 = view.findViewById(R.id.dress);
         dress1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -75,7 +75,7 @@ public class arts_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        dress = (CardView) view.findViewById(R.id.dress_card);
+        dress = view.findViewById(R.id.dress_card);
         dress.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -83,7 +83,7 @@ public class arts_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        lacuzzi1 = (TextView) view.findViewById(R.id.lacuzzi);
+        lacuzzi1 = view.findViewById(R.id.lacuzzi);
         lacuzzi1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -91,7 +91,7 @@ public class arts_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        lacuzzi = (CardView) view.findViewById(R.id.lacuzzi_card);
+        lacuzzi = view.findViewById(R.id.lacuzzi_card);
         lacuzzi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -99,7 +99,7 @@ public class arts_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        live1 = (TextView) view.findViewById(R.id.live);
+        live1 = view.findViewById(R.id.live);
         live1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -107,7 +107,7 @@ public class arts_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        live = (CardView) view.findViewById(R.id.live_card);
+        live = view.findViewById(R.id.live_card);
         live.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -115,7 +115,7 @@ public class arts_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        poetry = (CardView) view.findViewById(R.id.poetry_card);
+        poetry = view.findViewById(R.id.poetry_card);
         poetry.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -123,7 +123,7 @@ public class arts_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        poetry1 = (TextView) view.findViewById(R.id.poetry);
+        poetry1 = view.findViewById(R.id.poetry);
         poetry1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -132,7 +132,7 @@ public class arts_frag extends Fragment {
             }
         });
 
-        talk = (CardView) view.findViewById(R.id.talk_card);
+        talk = view.findViewById(R.id.talk_card);
         talk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -141,7 +141,7 @@ public class arts_frag extends Fragment {
             }
         });
 
-        talk1 = (TextView) view.findViewById(R.id.talk);
+        talk1 = view.findViewById(R.id.talk);
         talk1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -149,7 +149,7 @@ public class arts_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        tattoo = (CardView) view.findViewById(R.id.tattoo_card);
+        tattoo = view.findViewById(R.id.tattoo_card);
         tattoo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -157,7 +157,7 @@ public class arts_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        tattoo1 = (TextView) view.findViewById(R.id.tattoo);
+        tattoo1 = view.findViewById(R.id.tattoo);
         tattoo1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -165,7 +165,7 @@ public class arts_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        blind = (CardView) view.findViewById(R.id.blind_card);
+        blind = view.findViewById(R.id.blind_card);
         blind.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -173,7 +173,7 @@ public class arts_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        blind1 = (TextView) view.findViewById(R.id.blind);
+        blind1 = view.findViewById(R.id.blind);
         blind1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -181,7 +181,7 @@ public class arts_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        poster = (CardView) view.findViewById(R.id.poster_card);
+        poster = view.findViewById(R.id.poster_card);
         poster.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -189,7 +189,7 @@ public class arts_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        poster1 = (TextView) view.findViewById(R.id.poster);
+        poster1 = view.findViewById(R.id.poster);
         poster1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

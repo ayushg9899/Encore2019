@@ -42,7 +42,7 @@ public class technical_frag extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         getActivity().setTitle("TECHNICAL");
 
-        code = (CardView) view.findViewById(R.id.code_card);
+        code = view.findViewById(R.id.code_card);
         code.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,7 +51,7 @@ public class technical_frag extends Fragment {
             }
 
         });
-        code1 = (TextView) view.findViewById(R.id.code);
+        code1 = view.findViewById(R.id.code);
         code1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -60,7 +60,7 @@ public class technical_frag extends Fragment {
             }
 
         });
-        hunt = (CardView) view.findViewById(R.id.hunt_card);
+        hunt = view.findViewById(R.id.hunt_card);
         hunt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -69,7 +69,7 @@ public class technical_frag extends Fragment {
             }
 
         });
-        hunt1 = (TextView) view.findViewById(R.id.hunt);
+        hunt1 = view.findViewById(R.id.hunt);
         hunt1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -78,7 +78,7 @@ public class technical_frag extends Fragment {
             }
 
         });
-        robosoc = (CardView) view.findViewById(R.id.robosoc_card);
+        robosoc = view.findViewById(R.id.robosoc_card);
         robosoc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -87,7 +87,7 @@ public class technical_frag extends Fragment {
             }
 
         });
-        robosoc1 = (TextView) view.findViewById(R.id.robosoc);
+        robosoc1 = view.findViewById(R.id.robosoc);
         robosoc1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -96,7 +96,7 @@ public class technical_frag extends Fragment {
             }
 
         });
-        roborace1 = (TextView) view.findViewById(R.id.roborace);
+        roborace1 = view.findViewById(R.id.roborace);
         roborace1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -105,7 +105,7 @@ public class technical_frag extends Fragment {
             }
 
         });
-        roborace = (CardView) view.findViewById(R.id.roborace_card);
+        roborace = view.findViewById(R.id.roborace_card);
         roborace.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -114,7 +114,7 @@ public class technical_frag extends Fragment {
             }
 
         });
-        tech = (CardView) view.findViewById(R.id.Tech_card);
+        tech = view.findViewById(R.id.Tech_card);
         tech.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -123,7 +123,7 @@ public class technical_frag extends Fragment {
             }
 
         });
-        tech1 = (TextView) view.findViewById(R.id.Tech);
+        tech1 = view.findViewById(R.id.Tech);
         tech1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -132,7 +132,7 @@ public class technical_frag extends Fragment {
             }
 
         });
-        robosumo = (CardView) view.findViewById(R.id.robosumo_card);
+        robosumo = view.findViewById(R.id.robosumo_card);
         robosumo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -141,7 +141,7 @@ public class technical_frag extends Fragment {
             }
 
         });
-        robosumo1 = (TextView) view.findViewById(R.id.robosumo);
+        robosumo1 = view.findViewById(R.id.robosumo);
         robosumo1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -150,7 +150,7 @@ public class technical_frag extends Fragment {
             }
 
         });
-        aero = (CardView) view.findViewById(R.id.aero_card);
+        aero = view.findViewById(R.id.aero_card);
         aero.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -159,7 +159,7 @@ public class technical_frag extends Fragment {
             }
 
         });
-        aero1 = (TextView) view.findViewById(R.id.aero);
+        aero1 = view.findViewById(R.id.aero);
         aero1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

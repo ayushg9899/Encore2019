@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity
 
 
 
-        Cultural = (CardView) findViewById(R.id.Cultural);
+        Cultural = findViewById(R.id.Cultural);
         Cultural.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity
         }
 
         });
-        Technical = (CardView) findViewById(R.id.Technical);
+        Technical = findViewById(R.id.Technical);
         Technical.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity
             }
 
         });
-        Sports = (CardView) findViewById(R.id.Sports);
+        Sports = findViewById(R.id.Sports);
         Sports.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity
 //            }
 //
 //        });
-        Arts = (CardView) findViewById(R.id.Arts);
+        Arts = findViewById(R.id.Arts);
         Arts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity
             }
 
         });
-        Informal = (CardView) findViewById(R.id.Informal);
+        Informal = findViewById(R.id.Informal);
         Informal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity
         });
 
 
-        standup = (CardView) findViewById(R.id.stand_card);
+        standup = findViewById(R.id.stand_card);
         standup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        star = (CardView) findViewById(R.id.star_card);
+        star = findViewById(R.id.star_card);
         star.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        band = (CardView) findViewById(R.id.band_card);
+        band = findViewById(R.id.band_card);
         band.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -156,7 +156,7 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        perf = (CardView) findViewById(R.id.Performance);
+        perf = findViewById(R.id.Performance);
         perf.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -165,7 +165,7 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        astro = (CardView) findViewById(R.id.astro_card);
+        astro = findViewById(R.id.astro_card);
         astro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -174,7 +174,7 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        mobile = (CardView) findViewById(R.id.mobile_card);
+        mobile = findViewById(R.id.mobile_card);
         mobile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -183,7 +183,7 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        starg = (CardView) findViewById(R.id.starg_card);
+        starg = findViewById(R.id.starg_card);
         starg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -192,24 +192,24 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
 
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
     }
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
@@ -297,7 +297,7 @@ public class MainActivity extends AppCompatActivity
         }
 
 
-            DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+            DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }

@@ -39,7 +39,7 @@ public class cultural_frag extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         getActivity().setTitle("CULTURAL");
 
-        dance = (CardView) view.findViewById(R.id.dance_card);
+        dance = view.findViewById(R.id.dance_card);
         dance.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -48,7 +48,7 @@ public class cultural_frag extends Fragment {
             }
 
         });
-        dance1 = (TextView) view.findViewById(R.id.dance);
+        dance1 = view.findViewById(R.id.dance);
         dance1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -58,7 +58,7 @@ public class cultural_frag extends Fragment {
 
         });
 
-        skit = (CardView) view.findViewById(R.id.skit_card);
+        skit = view.findViewById(R.id.skit_card);
         skit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -66,7 +66,7 @@ public class cultural_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        skit1 = (TextView) view.findViewById(R.id.skit);
+        skit1 = view.findViewById(R.id.skit);
         skit1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -76,7 +76,7 @@ public class cultural_frag extends Fragment {
 
         });
 
-        bike = (CardView) view.findViewById(R.id.bike_card);
+        bike = view.findViewById(R.id.bike_card);
         bike.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -84,7 +84,7 @@ public class cultural_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        bike1 = (TextView) view.findViewById(R.id.bike);
+        bike1 = view.findViewById(R.id.bike);
         bike1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -93,7 +93,7 @@ public class cultural_frag extends Fragment {
             }
 
         });
-        vogue = (CardView) view.findViewById(R.id.vogue_card);
+        vogue = view.findViewById(R.id.vogue_card);
         vogue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -101,7 +101,7 @@ public class cultural_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        vogue1 = (TextView) view.findViewById(R.id.vogue);
+        vogue1 = view.findViewById(R.id.vogue);
         vogue1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -110,7 +110,7 @@ public class cultural_frag extends Fragment {
             }
 
         });
-        nukkad = (CardView) view.findViewById(R.id.nukkad_card);
+        nukkad = view.findViewById(R.id.nukkad_card);
         nukkad.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -118,7 +118,7 @@ public class cultural_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        nukkad1 = (TextView) view.findViewById(R.id.nukkad);
+        nukkad1 = view.findViewById(R.id.nukkad);
         nukkad1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -128,7 +128,7 @@ public class cultural_frag extends Fragment {
 
         });
 
-        sing = (CardView) view.findViewById(R.id.sing_card);
+        sing = view.findViewById(R.id.sing_card);
         sing.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -136,7 +136,7 @@ public class cultural_frag extends Fragment {
                 startActivity(intentLoadNewActivity);
             }
         });
-        sing1 = (TextView) view.findViewById(R.id.sing);
+        sing1 = view.findViewById(R.id.sing);
         sing1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

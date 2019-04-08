@@ -22,7 +22,7 @@ public class splash extends Activity {
 
         setContentView(R.layout.activity_splash);
 
-        VideoView vView = (VideoView) findViewById(R.id.video_view);
+        VideoView vView = findViewById(R.id.video_view);
         Uri video = Uri.parse("android.resource://" + getPackageName() + "/"
                 + R.raw.intro);
 
@@ -63,6 +63,11 @@ public class splash extends Activity {
 
     }
 
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        jump();
+        return true;
+    }
 
     @Override
     protected void onPause() {

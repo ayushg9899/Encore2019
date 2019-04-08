@@ -31,7 +31,7 @@ public class nights extends AppCompatActivity {
 //            }
 //
 //        });
-        standup = (CardView) findViewById(R.id.Standup_card);
+        standup = findViewById(R.id.Standup_card);
         standup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -39,7 +39,7 @@ public class nights extends AppCompatActivity {
                 startActivity(intentLoadNewActivity);
             }
         });
-        star = (CardView) findViewById(R.id.star_card);
+        star = findViewById(R.id.star_card);
         star.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -47,7 +47,7 @@ public class nights extends AppCompatActivity {
                 startActivity(intentLoadNewActivity);
             }
         });
-        band = (CardView) findViewById(R.id.band_card);
+        band = findViewById(R.id.band_card);
         band.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
