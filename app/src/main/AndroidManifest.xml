@@ -6,174 +6,188 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/encore"
+        android:icon="@drawable/logo"
         android:label=""
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".notification">
+            <intent-filter>
+                <action android:name="NOTIFICATION"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
         <activity
-            android:name="iet.lucknow.encore2019.splash"
+            android:name=".splash"
             android:clearTaskOnLaunch="true"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="iet.lucknow.encore2019.contact"
+        <activity
+            android:name=".contact"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="iet.lucknow.encore2019.about"
+            android:name=".about"
             android:label="ABOUT US"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.performances"
+            android:name=".performances"
             android:label="PERFORMANCES"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="iet.lucknow.encore2019.mobile"
+            android:name=".mobile"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.astro"
+            android:name=".astro"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.stargazing"
+            android:name=".stargazing"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.sports_events.kabaddi"
+            android:name=".sports_events.kabaddi"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.technical_events.aero"
+            android:name=".technical_events.aero"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.main_events"
+            android:name=".main_events"
             android:label="@string/title_activity_main_events"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="iet.lucknow.encore2019.Main2Activity"
+            android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="iet.lucknow.encore2019.informal_events.turn"
+            android:name=".informal_events.turn"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.informal_events.zorb"
+            android:name=".informal_events.zorb"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.informal_events.light"
+            android:name=".informal_events.light"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.informal_events.quest"
+            android:name=".informal_events.quest"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.informal_events.laser"
+            android:name=".informal_events.laser"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.informal_events.pubg"
+            android:name=".informal_events.pubg"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.night.star"
+            android:name=".night.star"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.night.band"
+            android:name=".night.band"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.night.edm"
+            android:name=".night.edm"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.night.standup"
+            android:name=".night.standup"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.arts_and_literary_events.poetry"
+            android:name=".arts_and_literary_events.poetry"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.arts_and_literary_events.live"
+            android:name=".arts_and_literary_events.live"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.arts_and_literary_events.dress"
+            android:name=".arts_and_literary_events.dress"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.arts_and_literary_events.clay"
+            android:name=".arts_and_literary_events.clay"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.arts_and_literary_events.tattoo"
+            android:name=".arts_and_literary_events.tattoo"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.arts_and_literary_events.blind"
+            android:name=".arts_and_literary_events.blind"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.arts_and_literary_events.lacuzzi"
+            android:name=".arts_and_literary_events.lacuzzi"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.arts_and_literary_events.debate"
+            android:name=".arts_and_literary_events.debate"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.arts_and_literary_events.talk"
+            android:name=".arts_and_literary_events.talk"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.sports_events.table"
+            android:name=".sports_events.table"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.sports_events.taekwondo"
+            android:name=".sports_events.taekwondo"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.sports_events.carrom"
+            android:name=".sports_events.carrom"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.sports_events.chess"
+            android:name=".sports_events.chess"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.sports_events.futsal"
+            android:name=".sports_events.futsal"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.sports_events.badminton"
+            android:name=".sports_events.badminton"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.technical_events.robosoc"
+            android:name=".technical_events.robosoc"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.technical_events.robosumo"
+            android:name=".technical_events.robosumo"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.technical_events.roborace"
+            android:name=".technical_events.roborace"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.technical_events.tech"
+            android:name=".technical_events.tech"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.technical_events.hunt"
+            android:name=".technical_events.hunt"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.technical_events.code"
+            android:name=".technical_events.code"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.cultural_events.final_year"
+            android:name=".cultural_events.final_year"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.cultural_events.sing"
+            android:name=".cultural_events.sing"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.cultural_events.nukkad"
+            android:name=".cultural_events.nukkad"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.cultural_events.vogue"
+            android:name=".cultural_events.vogue"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.cultural_events.torque"
+            android:name=".cultural_events.torque"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.cultural_events.skit"
+            android:name=".cultural_events.skit"
             android:theme="@style/AppTheme.CustomTheme" />
         <activity
-            android:name="iet.lucknow.encore2019.cultural_events.dance"
+            android:name=".cultural_events.dance"
             android:theme="@style/AppTheme.CustomTheme" />
-        <activity android:name="iet.lucknow.encore2019.nights" />
+        <activity android:name=".nights" />
         <activity
-            android:name="iet.lucknow.encore2019.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="MAINACTIVITY"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+
+        </activity>
     </application>
 
 </manifest>
