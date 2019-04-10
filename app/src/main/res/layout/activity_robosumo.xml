@@ -32,9 +32,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20dp"
-                android:text="The competition requires participants to design and fabricate an RC Aircraft (no readymade aircraft like RTF, ARF, BNF
-etc. are permitted) and perform a set of tasks. Propellers, Motors, ESC, Servos, Receiver and Transmitter are allowed as
-off-the-shelf items."
+                android:text="It's time to beat your thoughts to the mould of your will.Yes,your wait to experience real life adventure is over now.Gone are the days when you use to see the star wars and  transformers at your room to feel the heat.Now it's your turn to face it.Get ready for the new kind blitzkrieg at the Robowar arena in ENCoRE '19 in which your bots will be acting as your commandos.
+SO during these summer,let's put all your efforts to make temperature even more higher by putting your bots to arena.Its the best opportunity for all so come and grab it.Rock the arena and win amazing prizes."
 />
             <TextView
                 android:layout_width="match_parent"
