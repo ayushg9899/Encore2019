@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
-    tools:context=".arts_and_literary_events.debate">
+    tools:context="iet.lucknow.encore2019.arts_and_literary_events.debate">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">

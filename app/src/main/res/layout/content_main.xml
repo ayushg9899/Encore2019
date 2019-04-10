@@ -7,7 +7,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     android:background="@drawable/grey"
 
-    tools:context=".MainActivity"
+    tools:context="iet.lucknow.encore2019.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
     <ScrollView

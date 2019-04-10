@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/grey"
-    tools:context=".contact">
+    tools:context="iet.lucknow.encore2019.contact">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -38,85 +38,86 @@
                 android:layout_marginBottom="20dp"
                 />
 
-            <android.support.v7.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_marginBottom="70dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <ImageView
-                        android:layout_width="175dp"
-                        android:layout_height="175dp"
-                        android:layout_marginBottom="5dp"
-                        android:background="@drawable/swati" />
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/profile_image3"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:src="@drawable/kankane"
+                        app:civ_border_color="#FFf"
+                        app:civ_border_width="2dp" />
+
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#000"
+                        android:text="UDDESHYA KANKANE\n (+91-9452507475)"
+                        android:textColor="#fff"
+                        android:layout_gravity="center"
+
+                        android:layout_marginBottom="20dp"/>
+
+                </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image1"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:src="@drawable/swati"
+                    app:civ_border_color="#FFf"
+                    app:civ_border_width="2dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="20dp"
                         android:text="SWATI PANDEY\n (+91-8090135278)"
                         />
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
 
 
-            <android.support.v7.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_marginBottom="70dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center">
 
-                <LinearLayout
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="175dp"
-                        android:layout_height="175dp"
-                        android:layout_marginBottom="5dp"
-                        android:background="@drawable/ayush" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="#000"
-                        android:text="ANKIT CHAUHAN\n (+91-9149329068)"
-                        />
-
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
+                    android:layout_height="130dp"
+                    android:src="@drawable/ayush"
+                    app:civ_border_color="#FFf"
+                    app:civ_border_width="2dp" />
 
 
-            <android.support.v7.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_marginBottom="70dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ANKIT CHAUHAN\n (+91-9149329068)"
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:textColor="#fff"
+                    android:layout_gravity="center"
 
-                    <ImageView
-                        android:layout_width="175dp"
-                        android:layout_height="175dp"
-                        android:layout_marginBottom="5dp"
-                       android:background="@drawable/kankane" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="#000"
-                        android:text="UDDESHYA KANKANE\n (+91-9452507475)"
-                        />
+                    android:layout_marginBottom="20dp"/>
 
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+
 
 
 
@@ -132,58 +133,56 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="20dp"
                 />
-            <android.support.v7.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_marginBottom="70dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center">
 
-                <LinearLayout
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image4"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="175dp"
-                        android:layout_height="175dp"
-                        android:layout_marginBottom="5dp"
-                    android:background="@drawable/dummyavatar" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="#000"
-                        android:text="AYUSH GUPTA\n (+91-7318439047)"
-                        />
-
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
+                    android:layout_height="130dp"
+                    android:src="@drawable/dummyavatar"
+                    app:civ_border_color="#FFf"
+                    app:civ_border_width="2dp" />
 
 
-            <android.support.v7.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AYUSH GUPTA\n (+91-7318439047)"
+                    android:textColor="#fff"
+                    android:layout_gravity="center"
 
-                <LinearLayout
+                    android:layout_marginBottom="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image5"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:layout_height="130dp"
+                    android:src="@drawable/goel"
+                    app:civ_border_color="#FFf"
+                    app:civ_border_width="2dp" />
 
-                    <ImageView
-                        android:layout_width="175dp"
-                        android:layout_height="175dp"
-                        android:layout_marginBottom="5dp"
-                        android:background="@drawable/goel" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="#000"
-                        android:text="TILAK GOEL \n (+91-8795809577)"
-                        />
 
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TILAK GOEL \n (+91-8795809577)"
+                    android:textColor="#fff"
+                    android:layout_gravity="center"
+
+                    android:layout_marginBottom="20dp"/>
+
+            </LinearLayout>
 
 
 

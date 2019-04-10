@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
-    tools:context=".cultural_events.vogue">
+    tools:context="iet.lucknow.encore2019.cultural_events.vogue">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -38,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="Coordinator :\n Sparsh Singh(8874729487)\n Nitin Saiani(8853425805)" />
+            android:text="Coordinator :\n Sparsh Singh(8874729487)\n Nitin Saini(8853425805)" />
 
         <Button
             android:id="@+id/button"

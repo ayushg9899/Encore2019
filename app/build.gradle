@@ -1,9 +1,10 @@
 apply plugin: 'com.android.application'
 
+
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.example.encore2019"
+        applicationId "iet.lucknow.encore2019"
         minSdkVersion 22
         targetSdkVersion 28
         versionCode 1
@@ -33,6 +34,7 @@ dependencies {
     implementation 'com.android.support:cardview-v7:28.0.0'
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support:design:28.0.0'
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
 //    implementation 'com.google.firebase:firebase-core:16.0.1'
 //    implementation 'com.google.firebase:firebase-messaging:17.5.0'
 //

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:padding="20dp"
     android:layout_height="match_parent"
-    tools:context=".informal_events.laser">
+    tools:context="iet.lucknow.encore2019.informal_events.laser">
 
     <ScrollView
         android:layout_width="match_parent"

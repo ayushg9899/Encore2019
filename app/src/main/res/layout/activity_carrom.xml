@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:padding="20dp"
 
-    tools:context=".sports_events.carrom">
+    tools:context="iet.lucknow.encore2019.sports_events.carrom">
 
     <ScrollView
         android:layout_width="match_parent"

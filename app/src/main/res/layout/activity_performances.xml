@@ -5,12 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000"
-    tools:context=".performances">
+    tools:context="iet.lucknow.encore2019.performances">
 
-        <android.support.v7.widget.LinearLayoutCompat
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
@@ -25,323 +21,317 @@
 
             </android.support.v7.widget.Toolbar>
 
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:overScrollMode="ifContentScrolls"
+                android:scrollbarFadeDuration="4000"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                android:scrollbarStyle="outsideInset"
+                android:scrollbarTrackHorizontal="@drawable/substract"
+                android:scrollbarThumbHorizontal="@drawable/ic_send_yellow_24dp"
+                android:scrollbars="horizontal">
 
-        </android.support.v7.widget.LinearLayoutCompat>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:orientation="horizontal">
 
-
-
-
-    <HorizontalScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:overScrollMode="ifContentScrolls"
-        android:scrollbarFadeDuration="4000"
-        android:scrollbarAlwaysDrawHorizontalTrack="true"
-        android:scrollbarStyle="outsideInset"
-        android:scrollbarTrackHorizontal="@drawable/substract"
-        android:scrollbarThumbHorizontal="@drawable/ic_send_yellow_24dp"
-        android:scrollbars="horizontal">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_margin="2dp"
-            android:orientation="horizontal">
-
-            <android.support.v7.widget.CardView
-                android:layout_width="330dp"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp">
-
-                <ScrollView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
+                    <android.support.v7.widget.CardView
+                        android:layout_width="330dp"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="3dp">
+                        android:layout_margin="10dp">
 
-                        <ImageView
+                        <ScrollView
                             android:layout_width="match_parent"
-                            android:layout_height="250dp"
-                            android:background="@drawable/social1"
-                            android:elevation="20dp" />
+                            android:layout_height="match_parent">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginBottom="15dp"
-                            android:text="When you are socially awkward. You're isolated more than usual, and when you're isolated more than usual, your creativity is less compromised by what has already been said and done...
-Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - the most admired and praiseworthy social club of IET. We cordially invite you to mark your present here . PARMARTH is much blessed by having your presence in such beautiful evening as we want your sprinkling happiness that's shared with persons in need in jollity of infinite limits."
-                            android:textSize="20dp"></TextView>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:padding="3dp">
 
-                    </LinearLayout>
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="250dp"
+                                    android:background="@drawable/social1"
+                                    android:elevation="20dp" />
 
-                </ScrollView>
-            </android.support.v7.widget.CardView>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="15dp"
+                                    android:text="When you are socially awkward. You're isolated more than usual, and when you're isolated more than usual, your creativity is less compromised by what has already been said and done...
+        Here IET ENCORE'19 presents a creative and beautiful performance of  PARMARTH - the most admired and praiseworthy social club of IET. We cordially invite you to mark your present here . PARMARTH is much blessed by having your presence in such beautiful evening as we want your sprinkling happiness that's shared with persons in need in jollity of infinite limits."
+                                    android:textSize="20dp"></TextView>
 
-            <android.support.v7.widget.CardView
-                android:layout_width="350dp"
+                            </LinearLayout>
 
-                android:layout_height="match_parent"
-                android:layout_margin="10dp">
+                        </ScrollView>
+                    </android.support.v7.widget.CardView>
 
+                    <android.support.v7.widget.CardView
+                        android:layout_width="350dp"
 
-                <ScrollView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:layout_margin="10dp">
 
-                        <ImageView
+
+                        <ScrollView
                             android:layout_width="match_parent"
-                            android:layout_height="250dp"
+                            android:layout_height="match_parent">
 
-                            android:background="@drawable/fyd1"
-                            android:elevation="20dp" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:padding="5dp">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Still have that Bollywood rush racing in your veins? Does the over-pompous dholak beats and  the throbbing rock guitars send your legs grooving? Come, spice up the stage , scale up the temperature and unhinge the crowd with your thumkas and jhatkas! So, go get that jhumka and set your pagdi in place because Abhi toh party shuru hui hai!"
-                            android:textSize="20dp">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="250dp"
 
-                        </TextView>
+                                    android:background="@drawable/fyd1"
+                                    android:elevation="20dp" />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:paddingTop="20dp"
-                            android:text="Coordinators:\n Siddharth kaithwas(9170572906)\n Utkarsh deep (7023460719)"
-                            android:textSize="15dp" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Still have that Bollywood rush racing in your veins? Does the over-pompous dholak beats and  the throbbing rock guitars send your legs grooving? Come, spice up the stage , scale up the temperature and unhinge the crowd with your thumkas and jhatkas! So, go get that jhumka and set your pagdi in place because Abhi toh party shuru hui hai!"
+                                    android:textSize="20dp">
 
-                    </LinearLayout>
-                </ScrollView>
+                                </TextView>
 
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingTop="20dp"
+                                    android:text="Coordinators:\n Siddharth kaithwas(9170572906)\n Utkarsh deep (7023460719)"
+                                    android:textSize="15dp" />
 
-            </android.support.v7.widget.CardView>
-
-
-            <android.support.v7.widget.CardView
-                android:layout_width="350dp"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp">
+                            </LinearLayout>
+                        </ScrollView>
 
 
-                <ScrollView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    </android.support.v7.widget.CardView>
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="350dp"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:layout_margin="10dp">
 
-                        <ImageView
+
+                        <ScrollView
                             android:layout_width="match_parent"
-                            android:layout_height="250dp"
-                            android:background="@drawable/rampwalk"
-                            android:elevation="20dp" />
+                            android:layout_height="match_parent">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="Fashion is what you can buy,but style is what you posses. Fashion is what u being offered four times a year,but style is what you choose.
-                        Here's presenting you IET's ENCORE2k19 rampwalk and fashion competition.The stage is set,the wait is for you to set fire on it.
-                    If you are a fashion addict ,your walk ,creativity and confidence we gonna predict."
-                            android:textSize="20dp"></TextView>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:padding="5dp">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:paddingTop="20dp"
-                            android:text="Coordinator :\n Ankit Kumar (9149329068)"
-                            android:textSize="15dp" />
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="250dp"
+                                    android:background="@drawable/rampwalk"
+                                    android:elevation="20dp" />
 
-                    </LinearLayout>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Fashion is what you can buy,but style is what you posses. Fashion is what u being offered four times a year,but style is what you choose.
+                                Here's presenting you IET's ENCORE2k19 rampwalk and fashion competition.The stage is set,the wait is for you to set fire on it.
+                            If you are a fashion addict ,your walk ,creativity and confidence we gonna predict."
+                                    android:textSize="20dp"></TextView>
 
-                </ScrollView>
-            </android.support.v7.widget.CardView>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingTop="20dp"
+                                    android:text="Coordinator :\n Ankit Kumar (9149329068)"
+                                    android:textSize="15dp" />
 
-            <android.support.v7.widget.CardView
-                android:layout_width="350dp"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp">
+                            </LinearLayout>
 
+                        </ScrollView>
+                    </android.support.v7.widget.CardView>
 
-                <ScrollView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
+                    <android.support.v7.widget.CardView
+                        android:layout_width="350dp"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:layout_margin="10dp">
 
-                        <ImageView
+
+                        <ScrollView
                             android:layout_width="match_parent"
-                            android:layout_height="250dp"
-                            android:background="@drawable/kavi"
-                            android:elevation="20dp" />
+                            android:layout_height="match_parent">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="When your thoughts breathe and your words catch fire, when you choose dancing over walking or conveying before being understood, when you make them read  between the lines, that's when you add poetry to prose. So folks it's time you let your souls declare carte blanche! Encore'19 is all set to introduce you to the magic of all genres through Kavyutsava organised by The Soul Within Foundation. Here's your chance to experience poetry at its best!"
-                            android:textSize="20dp" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:padding="5dp">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:paddingTop="20dp"
-                            android:text="Coordinator :\n Swati Pandey (8090135278)"
-                            android:textSize="15dp" />
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="250dp"
+                                    android:background="@drawable/kavi"
+                                    android:elevation="20dp" />
 
-                    </LinearLayout>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="When your thoughts breathe and your words catch fire, when you choose dancing over walking or conveying before being understood, when you make them read  between the lines, that's when you add poetry to prose. So folks it's time you let your souls declare carte blanche! Encore'19 is all set to introduce you to the magic of all genres through Kavyutsava organised by The Soul Within Foundation. Here's your chance to experience poetry at its best!"
+                                    android:textSize="20dp" />
 
-                </ScrollView>
-            </android.support.v7.widget.CardView>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingTop="20dp"
+                                    android:text="Coordinator :\n Swati Pandey (8090135278)"
+                                    android:textSize="15dp" />
+
+                            </LinearLayout>
+
+                        </ScrollView>
+                    </android.support.v7.widget.CardView>
 
 
-            <android.support.v7.widget.CardView
-                android:layout_width="350dp"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp">
-
-
-                <ScrollView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
+                    <android.support.v7.widget.CardView
+                        android:layout_width="350dp"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:layout_margin="10dp">
 
-                        <ImageView
+
+                        <ScrollView
                             android:layout_width="match_parent"
-                            android:layout_height="250dp"
-                            android:background="@drawable/insaniax1"
-                            android:elevation="20dp" />
+                            android:layout_height="match_parent">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="Who says dance isn't magical? It's time to live your own La La Land. Listen to that long-forgotten whisper and feel the rise and the fall of your breath.Break those shackles. Grab the moment and cast that entrancing spell on us! Opportunity dances with those already on the dance floor.Come, grab it. Come, dance to live, to breathe, to be free, to be YOU."
-                            android:textSize="20dp">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:padding="5dp">
 
-                        </TextView>
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="250dp"
+                                    android:background="@drawable/insaniax1"
+                                    android:elevation="20dp" />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:paddingTop="20dp"
-                            android:text="Coordinators:\n Siddharth kaithwas(9170572906)\n Utkarsh deep (7023460719)"
-                            android:textSize="15dp" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Who says dance isn't magical? It's time to live your own La La Land. Listen to that long-forgotten whisper and feel the rise and the fall of your breath.Break those shackles. Grab the moment and cast that entrancing spell on us! Opportunity dances with those already on the dance floor.Come, grab it. Come, dance to live, to breathe, to be free, to be YOU."
+                                    android:textSize="20dp">
 
-                    </LinearLayout>
-                </ScrollView>
+                                </TextView>
 
-            </android.support.v7.widget.CardView>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingTop="20dp"
+                                    android:text="Coordinators:\n Siddharth kaithwas(9170572906)\n Utkarsh deep (7023460719)"
+                                    android:textSize="15dp" />
 
-            <android.support.v7.widget.CardView
-                android:layout_width="350dp"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp">
+                            </LinearLayout>
+                        </ScrollView>
 
+                    </android.support.v7.widget.CardView>
 
-                <ScrollView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
+                    <android.support.v7.widget.CardView
+                        android:layout_width="350dp"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:layout_margin="10dp">
 
-                        <ImageView
+
+                        <ScrollView
                             android:layout_width="match_parent"
-                            android:layout_height="250dp"
-                            android:background="@drawable/auroras"
-                            android:elevation="20dp" />
+                            android:layout_height="match_parent">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="Then the singing enveloped me. It was furry and resonant, coming from everyone's very heart. There was no sense of performance or judgment, only that the music was breath and food.” One of the greatest joys and freedoms is to sing what with your heart and soul, it metamorphosizes your thoughts into the listener's mind. Let your songs and voice transcend all the boundaries, sing like you have only today to express yourself, sing for the moment, sing for the laughter and sing for the tears."
-                            android:textSize="20dp">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:padding="5dp">
 
-                        </TextView>
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="250dp"
+                                    android:background="@drawable/auroras"
+                                    android:elevation="20dp" />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:paddingTop="20dp"
-                            android:text="Coordinators : \nRachit Srivastava(7007059767)"
-                            android:textSize="15dp" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Then the singing enveloped me. It was furry and resonant, coming from everyone's very heart. There was no sense of performance or judgment, only that the music was breath and food.” One of the greatest joys and freedoms is to sing what with your heart and soul, it metamorphosizes your thoughts into the listener's mind. Let your songs and voice transcend all the boundaries, sing like you have only today to express yourself, sing for the moment, sing for the laughter and sing for the tears."
+                                    android:textSize="20dp">
 
-                    </LinearLayout>
-                </ScrollView>
+                                </TextView>
 
-            </android.support.v7.widget.CardView>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingTop="20dp"
+                                    android:text="Coordinators : \nRachit Srivastava(7007059767)"
+                                    android:textSize="15dp" />
 
-            <android.support.v7.widget.CardView
-                android:layout_width="350dp"
-                android:layout_height="match_parent"
-                android:layout_margin="10dp">
+                            </LinearLayout>
+                        </ScrollView>
 
-                <ScrollView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    </android.support.v7.widget.CardView>
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
+                    <android.support.v7.widget.CardView
+                        android:layout_width="350dp"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:padding="5dp">
+                        android:layout_margin="10dp">
 
-                        <ImageView
+                        <ScrollView
                             android:layout_width="match_parent"
-                            android:layout_height="250dp"
-                            android:background="@drawable/swaranjali"
-                            android:elevation="20dp" />
+                            android:layout_height="match_parent">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="If I cannot fly, let me sing!” Man must have asked of God for the gift of voice and words; and the ability to so gracefully decorate his thoughts with language. For the one who sings knows not no boundaries but only the joy of expression - the joy that follows a song felt from the heart and sung from the soul. And nothing then is more beautiful, and nothing then is more enticing. And surely, nothing is more satisfying than singing your heart out loud."
-                            android:textSize="20dp" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:padding="5dp">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:paddingTop="20dp"
-                            android:text="Coordinator :\n Shubham trivedi (9450768361)"
-                            android:textSize="15dp" />
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="250dp"
+                                    android:background="@drawable/swaranjali"
+                                    android:elevation="20dp" />
 
-                    </LinearLayout>
-                </ScrollView>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="If I cannot fly, let me sing!” Man must have asked of God for the gift of voice and words; and the ability to so gracefully decorate his thoughts with language. For the one who sings knows not no boundaries but only the joy of expression - the joy that follows a song felt from the heart and sung from the soul. And nothing then is more beautiful, and nothing then is more enticing. And surely, nothing is more satisfying than singing your heart out loud."
+                                    android:textSize="20dp" />
 
-            </android.support.v7.widget.CardView>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingTop="20dp"
+                                    android:text="Coordinator :\n Shubham trivedi (9450768361)"
+                                    android:textSize="15dp" />
 
-        </LinearLayout>
-    </HorizontalScrollView>
+                            </LinearLayout>
+                        </ScrollView>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
 </RelativeLayout>

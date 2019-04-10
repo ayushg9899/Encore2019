@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/dark"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".day1">
+    tools:context="iet.lucknow.encore2019.day1">
 
     <ScrollView
         android:layout_width="match_parent"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
-    tools:context=".informal_events.quest">
+    tools:context="iet.lucknow.encore2019.informal_events.quest">
 <ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -41,7 +41,7 @@ anything else to win this quest. Just simple riddles leads the way to treasure .
             android:layout_height="wrap_content"
             android:paddingTop="20dp"
             android:textSize="15dp"
-            android:text="Coordinators:\n Pranav Srivastava(8960615746)" />
+            android:text="Coordinators:\n Pranav Srivastava(8960615746)\n Shubham singh(6307718162)\n Shivendu singh(7706866855)" />
 
         <Button
             android:id="@+id/button"

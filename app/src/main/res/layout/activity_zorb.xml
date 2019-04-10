@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
-    tools:context=".informal_events.zorb">
+    tools:context="iet.lucknow.encore2019.informal_events.zorb">
 
     <ScrollView
         android:layout_width="match_parent"
