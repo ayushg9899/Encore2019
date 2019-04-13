@@ -58,14 +58,27 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentEnd="true"
-                        android:layout_marginTop="40dp"
+                        android:layout_marginTop="20dp"
                         android:layout_marginRight="10dp"
-                        android:text="8AM - 11:30PM" />
+                        android:text="7AM -10AM"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="45dp"
+                        android:layout_marginRight="10dp"
+                        android:text="5PM -7PM"
+                        />
+
 
                 </RelativeLayout>
 
 
             </android.support.v7.widget.CardView>
+
+
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
@@ -87,7 +100,7 @@
                         android:fontFamily="sans-serif-black"
                         android:inputType="textPersonName"
                         android:padding="3dp"
-                        android:text="PAINT BALL"
+                        android:text="FUTSAL"
                         android:textSize="21sp" />
 
                     <TextView
@@ -98,7 +111,7 @@
                         android:layout_marginBottom="4dp"
                         android:background="#FFF072"
                         android:padding="4dp"
-                        android:text="Venue: IT Garden Area"
+                        android:text="Venue: Shaurya Ground"
                         android:textColor="#968624"
                         android:textStyle="bold" />
 
@@ -106,9 +119,18 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentEnd="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="10dp"
+                        android:text="7AM - 10AM" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
                         android:layout_marginTop="40dp"
                         android:layout_marginRight="10dp"
-                        android:text="Full day" />
+                        android:text="5PM - 7PM" />
+
 
                 </RelativeLayout>
 
@@ -136,151 +158,7 @@
                         android:fontFamily="sans-serif-black"
                         android:inputType="textPersonName"
                         android:padding="3dp"
-                        android:text="TATTO DESIGH"
-                        android:textSize="21sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="13dp"
-                        android:layout_marginTop="40dp"
-                        android:layout_marginBottom="4dp"
-                        android:background="#FFF072"
-                        android:padding="4dp"
-                        android:text="Venue: SAC"
-                        android:textColor="#968624"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginTop="40dp"
-                        android:layout_marginRight="10dp"
-                        android:text="10:30AM - 12:30PM" />
-
-                </RelativeLayout>
-
-
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
-                android:elevation="10dp"
-                app:cardCornerRadius="10dp">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="3dp"
-                        android:fontFamily="sans-serif-black"
-                        android:inputType="textPersonName"
-                        android:padding="3dp"
-                        android:text="BADMINTON(finals)"
-                        android:textSize="21sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="13dp"
-                        android:layout_marginTop="40dp"
-                        android:layout_marginBottom="4dp"
-                        android:background="#FFF072"
-                        android:padding="4dp"
-                        android:text="Venue: SAC"
-                        android:textColor="#968624"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginTop="40dp"
-                        android:layout_marginRight="10dp"
-                        android:text="9:30AM - 11AM" />
-
-                </RelativeLayout>
-
-
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
-                android:elevation="10dp"
-                app:cardCornerRadius="10dp">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="3dp"
-                        android:fontFamily="sans-serif-black"
-                        android:inputType="textPersonName"
-                        android:padding="3dp"
-                        android:text="MODEL POLLS"
-                        android:textSize="21sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="13dp"
-                        android:layout_marginTop="40dp"
-                        android:layout_marginBottom="4dp"
-                        android:background="#FFF072"
-                        android:padding="4dp"
-                        android:text="Venue: Conference Hall"
-                        android:textColor="#968624"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentEnd="true"
-                        android:layout_marginTop="40dp"
-                        android:layout_marginRight="10dp"
-                        android:text="1:30PM - 3:30PM" />
-
-                </RelativeLayout>
-
-
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
-                android:elevation="10dp"
-                app:cardCornerRadius="10dp">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="3dp"
-                        android:fontFamily="sans-serif-black"
-                        android:inputType="textPersonName"
-                        android:padding="3dp"
-                        android:text="TABLE TENNIS(finals)"
+                        android:text="CARROM"
                         android:textSize="21sp" />
 
                     <TextView
@@ -301,7 +179,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_marginTop="40dp"
                         android:layout_marginRight="10dp"
-                        android:text="10:30AM - 12:30PM" />
+                        android:text="1PM - 4PM" />
 
                 </RelativeLayout>
 
@@ -328,7 +206,199 @@
                         android:fontFamily="sans-serif-black"
                         android:inputType="textPersonName"
                         android:padding="3dp"
-                        android:text="100 KA DUM"
+                        android:text="CHESS"
+                        android:textSize="21sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginBottom="4dp"
+                        android:background="#FFF072"
+                        android:padding="4dp"
+                        android:text="Venue: Dispensary"
+                        android:textColor="#968624"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginRight="10dp"
+                        android:text="1PM - 4AM" />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="sans-serif-black"
+                        android:inputType="textPersonName"
+                        android:padding="3dp"
+                        android:text="BADMINTON(PRE)"
+                        android:textSize="21sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginBottom="4dp"
+                        android:background="#FFF072"
+                        android:padding="4dp"
+                        android:text="Venue: SAC"
+                        android:textColor="#968624"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginRight="10dp"
+                        android:text="1PM - 4PM" />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="sans-serif-black"
+                        android:inputType="textPersonName"
+                        android:padding="3dp"
+                        android:text="GD"
+                        android:textSize="21sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginBottom="4dp"
+                        android:background="#FFF072"
+                        android:padding="4dp"
+                        android:text="Venue: Conference Hall"
+                        android:textColor="#968624"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginRight="10dp"
+                        android:text="10AM - 12PM" />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="sans-serif-black"
+                        android:inputType="textPersonName"
+                        android:padding="3dp"
+                        android:text="TABLE TENNIS(PRE)"
+                        android:textSize="21sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginBottom="4dp"
+                        android:background="#FFF072"
+                        android:padding="4dp"
+                        android:text="Venue: Dispensary"
+                        android:textColor="#968624"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginRight="10dp"
+                        android:text="1PM - 4PM" />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="sans-serif-black"
+                        android:inputType="textPersonName"
+                        android:padding="3dp"
+                        android:text="SKETCH IT WRITE "
                         android:textSize="21sp" />
 
                     <TextView
@@ -349,7 +419,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_marginTop="40dp"
                         android:layout_marginRight="10dp"
-                        android:text="12:30PM - 1:30PM" />
+                        android:text="1PM - 3PM" />
 
                 </RelativeLayout>
 
@@ -376,7 +446,7 @@
                         android:fontFamily="sans-serif-black"
                         android:inputType="textPersonName"
                         android:padding="3dp"
-                        android:text="SINGING COMPETITION"
+                        android:text="DEAL WITH DEVIL"
                         android:textSize="21sp" />
 
                     <TextView
@@ -397,7 +467,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_marginTop="40dp"
                         android:layout_marginRight="10dp"
-                        android:text="12:30PM - 3PM" />
+                        android:text="10AM - 12PM" />
 
                 </RelativeLayout>
 
@@ -424,7 +494,151 @@
                         android:fontFamily="sans-serif-black"
                         android:inputType="textPersonName"
                         android:padding="3dp"
-                        android:text="FINAL YEAR WALK"
+                        android:text="MOBILE PLANETARIUM"
+                        android:textSize="21sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginBottom="4dp"
+                        android:background="#FFF072"
+                        android:padding="4dp"
+                        android:text="Venue: Sac"
+                        android:textColor="#968624"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginRight="10dp"
+                        android:text="9AM - 1PM" />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="sans-serif-black"
+                        android:inputType="textPersonName"
+                        android:padding="3dp"
+                        android:text="SKIT"
+                        android:textSize="21sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginBottom="4dp"
+                        android:background="#FFF072"
+                        android:padding="4dp"
+                        android:text="Venue: Main Stage"
+                        android:textColor="#968624"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginRight="10dp"
+                        android:text="2PM - 2:30PM" />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="sans-serif-black"
+                        android:inputType="textPersonName"
+                        android:padding="3dp"
+                        android:text="FINAL YEAR DANCE"
+                        android:textSize="21sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginBottom="4dp"
+                        android:background="#FFF072"
+                        android:padding="4dp"
+                        android:text="Venue: Audi"
+                        android:textColor="#968624"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginRight="10dp"
+                        android:text="2:30PM - 3:30PM" />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="sans-serif-black"
+                        android:inputType="textPersonName"
+                        android:padding="3dp"
+                        android:text="FEET OF FIRE(ROUND 1)"
                         android:textSize="21sp" />
 
                     <TextView
@@ -466,13 +680,61 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="3dp"
                         android:fontFamily="sans-serif-black"
                         android:inputType="textPersonName"
                         android:padding="3dp"
-                        android:text="BAND WARS"
+                        android:text="VOGUE"
+                        android:textSize="21sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginBottom="4dp"
+                        android:background="#FFF072"
+                        android:padding="4dp"
+                        android:text="Venue: Audi"
+                        android:textColor="#968624"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginRight="10dp"
+                        android:text="5:30PM -6:30PM" />
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="sans-serif-black"
+                        android:inputType="textPersonName"
+                        android:padding="3dp"
+                        android:text="STANDUP NIGHT"
                         android:textSize="21sp" />
 
                     <TextView
@@ -493,7 +755,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_marginTop="40dp"
                         android:layout_marginRight="10dp"
-                        android:text="5:30PM - 8:30PM" />
+                        android:text="6:30PM - 7:30PM" />
 
                 </RelativeLayout>
 

@@ -53,42 +53,6 @@
                     android:text="Venue: Audi" />
             </android.support.v7.widget.CardView>
 
-            <android.support.v7.widget.CardView
-                android:id="@+id/star_card"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="8dp"
-                app:cardElevation="10dp"
-                app:cardCornerRadius="20dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    app:srcCompat="@drawable/dj1" />
-
-                <TextView
-                    android:id="@+id/star_year"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="110dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginRight="20dp"
-                    android:ems="10"
-                    android:fontFamily="sans-serif-black"
-                    android:inputType="textPersonName"
-                    android:text="STAR NIGHT"
-                    android:textSize="21sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="110dp"
-                    android:layout_marginTop="50dp"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Venue: Main stage" />
-            </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/edm_card"
