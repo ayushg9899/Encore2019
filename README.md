@@ -11,8 +11,20 @@ Official app of IET Lucknow college fest ENCORE 2019.
   
   #SCHREENSHOTS
   
-  [screenshot 1](https://github.com/ayushg9899/Encore2019/blob/master/home.jpeg)
-  [screenshot 2](https://github.com/ayushg9899/Encore2019/blob/master/schedule.jpeg)
-  [screenshot 3](https://github.com/ayushg9899/Encore2019/blob/master/events.jpeg)
-  [screenshot 4](https://github.com/ayushg9899/Encore2019/blob/master/splash.jpeg)
-  [screenshot 5](https://github.com/ayushg9899/Encore2019/blob/master/tech.jpeg)
+  <div style="
+	height: auto;
+	text-align: justify;
+	-ms-text-justify: distribute-all-lines;
+	text-justify: distribute-all-lines;
+">
+  <img src="https://github.com/ayushg9899/Encore2019/blob/master/home.jpeg" width="200"/>
+  <img src="https://github.com/ayushg9899/Encore2019/blob/master/schedule.jpeg" width="200"/>
+  <img src="https://github.com/ayushg9899/Encore2019/blob/master/events.jpeg" width="200"/>
+  <img src="https://github.com/ayushg9899/Encore2019/blob/master/splash.jpeg" width="200"/>
+  <img src="https://github.com/ayushg9899/Encore2019/blob/master/tech.jpeg" width="200"/>
+<span style="
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0"></span>
+</div>
