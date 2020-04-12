@@ -9,7 +9,7 @@ Official app of IET Lucknow college fest ENCORE 2019.
  * Allow permission to install 3rd party app in your android phone.
  * install the apk.
   
-  #SCHREENSHOTS
+ # SCHREENSHOTS
   
   <div style="
 	height: auto;
@@ -28,3 +28,5 @@ Official app of IET Lucknow college fest ENCORE 2019.
   font-size: 0;
   line-height: 0"></span>
 </div>
+
+
