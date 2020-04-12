@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "208385871394",
+    "firebase_url": "https://encore2019-a3d64.firebaseio.com",
+    "project_id": "encore2019-a3d64",
+    "storage_bucket": "encore2019-a3d64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208385871394:android:fcff373761628b2e",
+        "android_client_info": {
+          "package_name": "iet.lucknow.encore2019"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208385871394-5lvu7gc93qbc3k6kgnqapj69elsqd9b7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "iet.lucknow.encore2019",
+            "certificate_hash": "0bbdf1774f763678b6a512092b37bdc6299ec142"
+          }
+        },
+        {
+          "client_id": "208385871394-5234onmbnj41e66i5qvgn455pp76r3tt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuCNw2oXU-2M4HWYEHuubYbM1eg1V_HdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208385871394-5234onmbnj41e66i5qvgn455pp76r3tt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
